@@ -1,0 +1,428 @@
+{
+  "lastRun": "2026-11-18T12:00:00Z",
+  "summary": "Today's picks: Travis Scott × GTA 6 AF1 (Nov 19) and Corteiz Shox R419 Silver (Nov 20) are the strongest flips. AJ11 Space Jam has hype but huge supply, so it rates Maybe. MM6 × Salomon drop 2 went live Nov 17.",
+  "drops": [
+    {
+      "brand": "Jordan",
+      "category": "Sneakers",
+      "collab": "",
+      "confidence": "low",
+      "estResale": 200,
+      "firstSeen": "2026-11-18",
+      "hype": 2,
+      "method": "SNKRS",
+      "name": "Air Jordan 10 \"Sacramento\"",
+      "notes": "City-pack retro, general release.",
+      "releaseDate": "2026-12-05",
+      "resaleNote": "AJ10 retros rarely clear retail.",
+      "retail": 215,
+      "sources": [
+        {
+          "label": "House of Heat – Jordan 2026",
+          "url": "https://houseofheat.co/jordan/air-jordan-retros-returning-2026"
+        }
+      ],
+      "updated": "2026-11-18T12:00:00Z",
+      "where": "Nike SNKRS, retailers",
+      "id": "aj10-sacramento"
+    },
+    {
+      "brand": "Jordan",
+      "category": "Sneakers",
+      "collab": "",
+      "confidence": "medium",
+      "estResale": 320,
+      "firstSeen": "2026-11-18",
+      "hype": 4,
+      "method": "SNKRS",
+      "name": "Air Jordan 11 \"Space Jam\" (2026)",
+      "notes": "30th anniversary holiday 11 with full family sizing, so supply is huge. Pre-release StockX ask is $599 / last $800, but those numbers usually fall hard after release day.",
+      "releaseDate": "2026-12-12",
+      "resaleNote": "The Space Jam 9 from September is trading under retail. Holiday 11s typically settle $60–$120 over retail in core sizes.",
+      "retail": 235,
+      "sku": "CT8012-900",
+      "sources": [
+        {
+          "label": "StockX",
+          "url": "https://stockx.com/air-jordan-11-retro-space-jam-2026"
+        },
+        {
+          "label": "Sole Retriever",
+          "url": "https://www.soleretriever.com/news/articles/air-jordan-11-retro-space-jam-retailer-images-release-date-december-2026"
+        },
+        {
+          "label": "Sneaker News",
+          "url": "https://sneakernews.com/2026/08/20/space-jam-jordan-11/"
+        }
+      ],
+      "updated": "2026-11-18T12:00:00Z",
+      "where": "Nike SNKRS, DICK'S, Foot Locker",
+      "id": "aj11-space-jam-2026"
+    },
+    {
+      "brand": "adidas",
+      "category": "Sneakers",
+      "collab": "Brain Dead",
+      "confidence": "low",
+      "estResale": 195,
+      "firstSeen": "2026-11-18",
+      "hype": 2,
+      "method": "FCFS",
+      "name": "Zuperklimb",
+      "notes": "Niche collab; retail assumed.",
+      "releaseDate": "2026-11-19",
+      "resaleNote": "Brain Dead sneakers tend to sit near retail outside the first week.",
+      "retail": 180,
+      "sources": [
+        {
+          "label": "House of Heat – November",
+          "url": "https://houseofheat.co/upcoming-sneaker-releases-november-2026"
+        }
+      ],
+      "updated": "2026-11-18T12:00:00Z",
+      "where": "Brain Dead, adidas",
+      "id": "braindead-zuperklimb"
+    },
+    {
+      "brand": "Nike",
+      "category": "Sneakers",
+      "collab": "Carhartt WIP",
+      "confidence": "low",
+      "estResale": 210,
+      "firstSeen": "2026-11-18",
+      "hype": 3,
+      "method": "FCFS",
+      "name": "Air Max Goadome Low \"Black\"",
+      "notes": "Date moved from Nov 12. Retail not confirmed; $160 assumed.",
+      "releaseDate": "2026-11-20",
+      "resaleNote": "Workwear collabs move steadily but rarely spike. Estimate is a modest premium.",
+      "retail": 160,
+      "sources": [
+        {
+          "label": "Upcoming releases calendar",
+          "url": "https://sneakernews.com/release-dates/"
+        }
+      ],
+      "updated": "2026-11-18T12:00:00Z",
+      "where": "Carhartt WIP, Nike",
+      "id": "carhartt-goadome-black"
+    },
+    {
+      "brand": "Nike",
+      "category": "Apparel",
+      "collab": "Corteiz",
+      "confidence": "low",
+      "estResale": 170,
+      "firstSeen": "2026-11-18",
+      "hype": 4,
+      "method": "FCFS",
+      "name": "Corteiz × Nike Apparel Collection",
+      "notes": "Leaked apparel capsule expected later in 2026. Retail is an average guess across pieces.",
+      "releaseDate": "",
+      "resaleNote": "Corteiz apparel drops sell out fast; tracksuit pieces usually carry the best premiums.",
+      "retail": 110,
+      "sources": [
+        {
+          "label": "Sneaker Bar Detroit",
+          "url": "https://sneakerbardetroit.com/corteiz-nike-apparel-2026-collection/"
+        },
+        {
+          "label": "The Sole Supplier",
+          "url": "https://thesolesupplier.co.uk/news/corteiz-x-nike-apparel-leak-hints-at-autumn-2026-takeover/"
+        }
+      ],
+      "updated": "2026-11-18T12:00:00Z",
+      "where": "Nike.com, Corteiz site",
+      "id": "corteiz-nike-apparel-fw26"
+    },
+    {
+      "brand": "Nike",
+      "category": "Sneakers",
+      "collab": "Corteiz",
+      "confidence": "low",
+      "estResale": 290,
+      "firstSeen": "2026-11-18",
+      "hype": 4,
+      "method": "SNKRS",
+      "name": "Shox R419 \"Black\"",
+      "notes": "Part of the Holiday 2026 pack. No confirmed date yet; the scout will update when one appears.",
+      "releaseDate": "",
+      "resaleNote": "Black colorways usually trade a little under the louder pairs; set below the Silver estimate.",
+      "retail": 190,
+      "sources": [
+        {
+          "label": "Sneaker Files",
+          "url": "https://www.sneakerfiles.com/corteiz-nike-shox-r419-2026/"
+        },
+        {
+          "label": "Stadium Goods",
+          "url": "https://www.stadiumgoods.com/products/shox-r419-corteiz-black-247764"
+        }
+      ],
+      "updated": "2026-11-18T12:00:00Z",
+      "where": "Nike SNKRS, Corteiz site",
+      "id": "corteiz-shox-r419-black"
+    },
+    {
+      "brand": "Nike",
+      "category": "Sneakers",
+      "collab": "Corteiz",
+      "confidence": "medium",
+      "estResale": 330,
+      "firstSeen": "2026-11-18",
+      "hype": 5,
+      "method": "SNKRS",
+      "name": "Shox R419 \"Metallic Silver\"",
+      "notes": "Sneaker News lists Nov 20 on SNKRS; other outlets still say Holiday 2026. Retail reported as $180–$190.",
+      "releaseDate": "2026-11-20",
+      "resaleNote": "The Game Royal pair shows a StockX ask of $399, last sale $581, highest bid $245. Estimate sits near the bid-ask middle.",
+      "retail": 190,
+      "sku": "IQ9951-001",
+      "sources": [
+        {
+          "label": "Sneaker News",
+          "url": "https://sneakernews.com/2026/11/09/corteiz-nike-shox-r419-metallic-silver-iq9951-001/"
+        },
+        {
+          "label": "StockX (Game Royal)",
+          "url": "https://stockx.com/nike-shox-r419-corteiz-game-royal"
+        },
+        {
+          "label": "Sole Retriever",
+          "url": "https://www.soleretriever.com/news/articles/corteiz-nike-shox-r419-release-date-holiday-2026"
+        }
+      ],
+      "updated": "2026-11-18T12:00:00Z",
+      "where": "Nike SNKRS, Corteiz site",
+      "id": "corteiz-shox-r419-silver"
+    },
+    {
+      "brand": "Nike",
+      "category": "Sneakers",
+      "collab": "HOMERUN NYC",
+      "confidence": "low",
+      "estResale": 150,
+      "firstSeen": "2026-11-18",
+      "hype": 2,
+      "method": "In-store",
+      "name": "Air Trainer SC Low",
+      "notes": "Small-shop collab, likely in-store heavy.",
+      "releaseDate": "2026-11-29",
+      "resaleNote": "Low profile; modest premium if quantities are small.",
+      "retail": 120,
+      "sources": [
+        {
+          "label": "House of Heat – November",
+          "url": "https://houseofheat.co/upcoming-sneaker-releases-november-2026"
+        }
+      ],
+      "updated": "2026-11-18T12:00:00Z",
+      "where": "HOMERUN NYC",
+      "id": "homerun-airtrainer-sc"
+    },
+    {
+      "brand": "Nike",
+      "category": "Sneakers",
+      "collab": "",
+      "confidence": "medium",
+      "estResale": 265,
+      "firstSeen": "2026-11-18",
+      "hype": 4,
+      "method": "SNKRS",
+      "name": "KD 6 \"Aunt Pearl\"",
+      "notes": "Kay Yow / breast cancer awareness retro; historically one of the strongest KD resellers.",
+      "releaseDate": "2026-11-28",
+      "resaleNote": "Previous Aunt Pearl retros traded well above retail; tempered for larger modern runs.",
+      "retail": 190,
+      "sources": [
+        {
+          "label": "House of Heat – November",
+          "url": "https://houseofheat.co/upcoming-sneaker-releases-november-2026"
+        }
+      ],
+      "updated": "2026-11-18T12:00:00Z",
+      "where": "Nike SNKRS",
+      "id": "kd6-aunt-pearl"
+    },
+    {
+      "brand": "Nike",
+      "category": "Sneakers",
+      "collab": "",
+      "confidence": "low",
+      "estResale": 205,
+      "firstSeen": "2026-11-18",
+      "hype": 2,
+      "method": "FCFS",
+      "name": "LeBron 24 \"Chosen 1s\"",
+      "notes": "General release signature shoe.",
+      "releaseDate": "2026-12-01",
+      "resaleNote": "Signature basketball GRs usually trade at or below retail.",
+      "retail": 200,
+      "sources": [
+        {
+          "label": "Sneaker Files calendar",
+          "url": "https://www.sneakerfiles.com/release-dates/"
+        }
+      ],
+      "updated": "2026-11-18T12:00:00Z",
+      "where": "Nike, Foot Locker",
+      "id": "lebron24-chosen1"
+    },
+    {
+      "brand": "Salomon",
+      "category": "Sneakers",
+      "collab": "MM6 Maison Margiela",
+      "confidence": "low",
+      "estResale": 340,
+      "firstSeen": "2026-11-18",
+      "hype": 3,
+      "method": "FCFS",
+      "name": "XT-BOOT MM6 / ACS Pro MM6 (FW26 Drop 2)",
+      "notes": "Second half of the 8-style FW26 pack. Dropped yesterday; check if sizes are still on Salomon.com before buying.",
+      "releaseDate": "2026-11-17",
+      "resaleNote": "MM6 x Salomon trades a small premium in core sizes; boots sell slower than low-tops.",
+      "retail": 300,
+      "sources": [
+        {
+          "label": "Hypebeast",
+          "url": "https://hypebeast.com/2026/10/mm6-maison-margiela-salomon-unveil-8-pack-fw26-collection"
+        },
+        {
+          "label": "House of Heat",
+          "url": "https://houseofheat.co/salomon/mm6-maison-margiela-salomon-fall-winter-2026"
+        }
+      ],
+      "updated": "2026-11-18T12:00:00Z",
+      "where": "Salomon.com, MM6 boutiques",
+      "id": "mm6-salomon-fw26-drop2"
+    },
+    {
+      "brand": "adidas",
+      "category": "Sneakers",
+      "collab": "Pharrell",
+      "confidence": "low",
+      "estResale": 280,
+      "firstSeen": "2026-11-18",
+      "hype": 2,
+      "method": "FCFS",
+      "name": "Adistar Jellyfish \"Auburn Timber\"",
+      "notes": "High retail limits the margin.",
+      "releaseDate": "2026-12-05",
+      "resaleNote": "Recent Pharrell Adistar pairs trade around or under retail.",
+      "retail": 300,
+      "sources": [
+        {
+          "label": "Sneaker Files calendar",
+          "url": "https://www.sneakerfiles.com/release-dates/"
+        }
+      ],
+      "updated": "2026-11-18T12:00:00Z",
+      "where": "adidas Confirmed",
+      "id": "pharrell-adistar-jellyfish"
+    },
+    {
+      "brand": "Nike",
+      "category": "Sneakers",
+      "collab": "Slam Jam",
+      "confidence": "low",
+      "estResale": 250,
+      "firstSeen": "2026-11-18",
+      "hype": 3,
+      "method": "Raffle",
+      "name": "Air Max 97",
+      "notes": "Black Friday release. Retail assumed.",
+      "releaseDate": "2026-11-28",
+      "resaleNote": "Past Slam Jam Nike collabs held 20–40% premiums.",
+      "retail": 200,
+      "sources": [
+        {
+          "label": "House of Heat – November",
+          "url": "https://houseofheat.co/upcoming-sneaker-releases-november-2026"
+        }
+      ],
+      "updated": "2026-11-18T12:00:00Z",
+      "where": "Slam Jam, select shops",
+      "id": "slamjam-am97"
+    },
+    {
+      "brand": "Nike",
+      "category": "Sneakers",
+      "collab": "Travis Scott / Rockstar Games",
+      "confidence": "medium",
+      "estResale": 320,
+      "firstSeen": "2026-11-18",
+      "hype": 5,
+      "method": "SNKRS",
+      "name": "Air Force 1 Low \"GTA 6\" Pack",
+      "notes": "Drops the same day as GTA 6. One Friends & Family colorway stays exclusive. Nike and Rockstar have not officially confirmed it, so treat the date as likely, not certain.",
+      "releaseDate": "2026-11-19",
+      "resaleNote": "Past Travis Scott AF1s averaged $400 in year one (167% premium) and the Cactus Jack AF1 held ~$590. Discounted for what will likely be a large run at $130.",
+      "retail": 130,
+      "sources": [
+        {
+          "label": "Sneaker News",
+          "url": "https://sneakernews.com/2026/11/05/travis-scott-grand-theft-auto-6-vi-nike-air-force-1-low/"
+        },
+        {
+          "label": "Hypebeast",
+          "url": "https://hypebeast.com/?post=6812133"
+        },
+        {
+          "label": "StockX: Travis AF1 by the numbers",
+          "url": "https://stockx.com/news/fr-ca/nike-air-force-1-cactus-jack-by-the-numbers/"
+        }
+      ],
+      "updated": "2026-11-18T12:00:00Z",
+      "where": "Nike SNKRS, Cactus Jack",
+      "id": "ts-gta6-af1"
+    },
+    {
+      "brand": "Jordan",
+      "category": "Sneakers",
+      "collab": "Travis Scott",
+      "confidence": "low",
+      "estResale": 330,
+      "firstSeen": "2026-11-18",
+      "hype": 4,
+      "method": "SNKRS",
+      "name": "Jumpman Jack \"Taupe Haze\"",
+      "notes": "Only one aggregator lists Dec 31 so far.",
+      "releaseDate": "2026-12-31",
+      "resaleNote": "Earlier Jumpman Jack colorways resold roughly 50–80% over retail.",
+      "retail": 200,
+      "sources": [
+        {
+          "label": "WhenToCop",
+          "url": "https://www.whentocop.com/blog/collaboration-jordan-2026-a-suivre"
+        }
+      ],
+      "updated": "2026-11-18T12:00:00Z",
+      "where": "Nike SNKRS, Travis Scott site",
+      "id": "ts-jumpman-jack-taupe"
+    },
+    {
+      "brand": "Nike",
+      "category": "Sneakers",
+      "collab": "Union LA",
+      "confidence": "low",
+      "estResale": 170,
+      "firstSeen": "2026-11-18",
+      "hype": 3,
+      "method": "Raffle",
+      "name": "Cortez (new colorways)",
+      "notes": "Official images are out but no date yet.",
+      "releaseDate": "",
+      "resaleNote": "Earlier Union Cortez pairs sold 40–70% over retail.",
+      "retail": 110,
+      "sources": [
+        {
+          "label": "House of Heat",
+          "url": "https://houseofheat.co/nike/serena-williams-swdc-nike-cortez-ii5708-002-ii5708-003"
+        }
+      ],
+      "updated": "2026-11-18T12:00:00Z",
+      "where": "Union LA, Nike",
+      "id": "union-cortez"
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Upcoming limited sneaker and streetwear drops, ranked by expected resale profit after fees. Updated daily.">
+<meta name="theme-color" content="#E9ECEF">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='none' stroke='%232440E6' stroke-width='3'/%3E%3Ccircle cx='16' cy='16' r='7' fill='none' stroke='%232440E6' stroke-width='3'/%3E%3Ccircle cx='16' cy='16' r='2.5' fill='%232440E6'/%3E%3C/svg%3E">
+<title>Flip Radar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+/* Layout: release-ticket list — a date stub on the left, the flip math on the right, sorted by score */
+:root{
+  --bg:#E9ECEF; --paper:#F7F8FA; --ink:#101317; --muted:#5B636D; --line:#C9CFD6;
+  --accent:#2440E6; --accent-ink:#FFFFFF;
+  --win:#0E8A4F; --win-bg:#DDF2E6; --warn:#A86A00; --warn-bg:#F8EBCF; --loss:#C2352B; --loss-bg:#F8DEDB;
+  --display:"Archivo",system-ui,sans-serif; --body:"Archivo",system-ui,sans-serif; --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0F1216; --paper:#181C22; --ink:#EEF1F4; --muted:#98A1AC; --line:#2C333C;
+  --accent:#7E93FF; --accent-ink:#0B0E14;
+  --win:#4FD18F; --win-bg:#123323; --warn:#F0B44C; --warn-bg:#352812; --loss:#FF7A6E; --loss-bg:#3A1A17; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0F1216; --paper:#181C22; --ink:#EEF1F4; --muted:#98A1AC; --line:#2C333C;
+  --accent:#7E93FF; --accent-ink:#0B0E14;
+  --win:#4FD18F; --win-bg:#123323; --warn:#F0B44C; --warn-bg:#352812; --loss:#FF7A6E; --loss-bg:#3A1A17; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.45;font-variation-settings:"wdth" 100}
+.wrap{max-width:1040px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:22px}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+header{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px}
+h1{font-family:var(--display);font-variation-settings:"wdth" 125;font-weight:900;font-size:clamp(34px,7vw,58px);line-height:.9;letter-spacing:-.02em;margin:0;text-transform:uppercase}
+h1 span{color:var(--accent)}
+.tag{font-family:var(--mono);font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+.stamp{display:flex;flex-direction:column;align-items:flex-end;gap:4px;text-align:right}
+.pulse{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:12px;padding:4px 10px;border:1px solid var(--line);border-radius:999px;background:var(--paper)}
+.pulse i{width:8px;height:8px;border-radius:50%;background:var(--win)}
+.pulse.stale i{background:var(--warn)}
+.summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.summary div{background:var(--paper);padding:14px 16px;display:flex;flex-direction:column;gap:2px;min-width:0}
+.summary b{font-family:var(--display);font-variation-settings:"wdth" 110;font-size:26px;font-weight:800;line-height:1.1;overflow-wrap:anywhere}
+.summary small{color:var(--muted);font-size:12.5px}
+.toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.chip{font:600 13px var(--body);padding:7px 12px;border-radius:999px;border:1px solid var(--line);background:var(--paper);color:var(--ink);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chip:focus-visible,.btn:focus-visible,summary:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.spacer{flex:1}
+select,input{font:500 13px var(--body);padding:7px 10px;border-radius:6px;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.btn{font:700 13px var(--body);padding:8px 14px;border-radius:6px;border:1px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer}
+.list{display:flex;flex-direction:column;gap:10px}
+.ticket{display:grid;grid-template-columns:92px 1fr;background:var(--paper);border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.stub{border-right:2px dashed var(--line);padding:14px 10px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;text-align:center}
+.stub .mon{font-family:var(--mono);font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}
+.stub .day{font-family:var(--display);font-variation-settings:"wdth" 125;font-size:36px;font-weight:900;line-height:1}
+.stub .rel{font-family:var(--mono);font-size:11px;color:var(--accent);font-weight:600}
+.body{padding:14px 16px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 18px;min-width:0}
+.title{display:flex;flex-direction:column;gap:3px;min-width:0}
+.brand{font-family:var(--mono);font-size:11.5px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.name{font-family:var(--display);font-variation-settings:"wdth" 108;font-size:19px;font-weight:800;line-height:1.15;text-wrap:balance}
+.meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.pill{font:600 11.5px var(--mono);padding:3px 8px;border-radius:4px;background:var(--bg);color:var(--muted);border:1px solid var(--line)}
+.verdict{display:flex;flex-direction:column;align-items:flex-end;gap:4px;text-align:right}
+.v{font:800 12px var(--mono);letter-spacing:.08em;text-transform:uppercase;padding:4px 10px;border-radius:4px}
+.v.cop{background:var(--win-bg);color:var(--win)} .v.maybe{background:var(--warn-bg);color:var(--warn)} .v.skip{background:var(--loss-bg);color:var(--loss)}
+.profit{font-family:var(--display);font-variation-settings:"wdth" 112;font-size:24px;font-weight:900;line-height:1}
+.profit.pos{color:var(--win)} .profit.neg{color:var(--loss)}
+.math{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:4px 18px;font-family:var(--mono);font-size:12.5px;color:var(--muted);border-top:1px solid var(--line);padding-top:8px;margin-top:4px}
+.math b{color:var(--ink);font-weight:600}
+.score{display:inline-flex;align-items:center;gap:6px}
+.bar{width:70px;height:6px;border-radius:3px;background:var(--line);overflow:hidden}
+.bar i{display:block;height:100%;background:var(--accent)}
+details{grid-column:1/-1}
+summary{cursor:pointer;font:600 12.5px var(--body);color:var(--accent);list-style:none}
+summary::-webkit-details-marker{display:none}
+.more{display:flex;flex-direction:column;gap:8px;padding-top:8px;font-size:14px;max-width:70ch}
+.more a{color:var(--accent);overflow-wrap:anywhere}
+.more ul{margin:0;padding-left:18px}
+.star{background:none;border:0;cursor:pointer;font-size:18px;color:var(--muted);padding:0 2px;line-height:1}
+.star[aria-pressed="true"]{color:var(--accent)}
+.empty{background:var(--paper);border:1px dashed var(--line);border-radius:6px;padding:28px;text-align:center;color:var(--muted)}
+.empty b{display:block;color:var(--ink);font-size:16px;margin-bottom:4px}
+.panel{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:16px;display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px}
+.panel label{display:flex;flex-direction:column;gap:4px;font-size:12.5px;color:var(--muted)}
+.panel p{grid-column:1/-1;margin:0;font-size:13px;color:var(--muted)}
+.log{font-size:13.5px;color:var(--muted);border-left:3px solid var(--accent);padding:4px 0 4px 12px;max-width:75ch}
+footer{font-size:12.5px;color:var(--muted);max-width:75ch}
+@media (max-width:560px){
+  .ticket{grid-template-columns:68px 1fr}
+  .stub .day{font-size:28px}
+  .body{grid-template-columns:1fr}
+  .verdict{flex-direction:row;align-items:center;justify-content:space-between;text-align:left}
+}
+@media (prefers-reduced-motion:no-preference){.ticket{transition:transform .15s ease}.ticket:hover{transform:translateX(2px)}}
+</style>
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <div class="tag">Daily scout · limited drops · resale math</div>
+      <h1>Flip<span>/</span>Radar</h1>
+    </div>
+    <div class="stamp">
+      <span class="pulse" id="pulse"><i></i><span id="lastRun">Loading drops…</span></span>
+      <span class="tag" id="count"></span>
+    </div>
+  </header>
+
+  <div class="log" id="log" hidden></div>
+
+  <section class="summary" aria-label="Summary">
+    <div><small>Cop-rated drops ahead</small><b id="sCop">–</b><small id="sCopSub">&nbsp;</small></div>
+    <div><small>Best single flip (net)</small><b id="sBest">–</b><small id="sBestSub">&nbsp;</small></div>
+    <div><small>Next drop</small><b id="sNext">–</b><small id="sNextSub">&nbsp;</small></div>
+    <div><small>Net if you land 1 of each Cop</small><b id="sTotal">–</b><small>after fees, tax, shipping</small></div>
+  </section>
+
+  <div class="toolbar" role="toolbar" aria-label="Filters">
+    <button class="chip" data-f="upcoming" aria-pressed="true">Upcoming</button>
+    <button class="chip" data-f="cop" aria-pressed="false">Cop only</button>
+    <button class="chip" data-f="watch" aria-pressed="false">★ Watching</button>
+    <button class="chip" data-f="all" aria-pressed="false">Everything</button>
+    <span class="spacer"></span>
+    <select id="sort" aria-label="Sort by">
+      <option value="score">Sort: Flip score</option>
+      <option value="profit">Sort: Net profit</option>
+      <option value="date">Sort: Release date</option>
+      <option value="roi">Sort: ROI</option>
+    </select>
+    <input id="q" type="search" placeholder="Search brand, collab…" aria-label="Search">
+    <button class="btn" id="toggleSettings" aria-expanded="false">Fees</button>
+  </div>
+
+  <section class="panel" id="settings" hidden>
+    <label>Seller fee %<input id="fee" type="number" min="0" max="40" step="0.5"></label>
+    <label>Sales tax on retail %<input id="tax" type="number" min="0" max="15" step="0.25"></label>
+    <label>Shipping + extras $<input id="ship" type="number" min="0" max="100" step="1"></label>
+    <label>Min profit for "Cop" $<input id="minp" type="number" min="0" max="1000" step="5"></label>
+    <p>Defaults approximate StockX/GOAT seller fee plus payment processing (~12%), 8% sales tax and $15 for shipping to you. Saved in this browser only.</p>
+  </section>
+
+  <section class="list" id="list" aria-live="polite">
+    <div class="empty"><b>Waiting for the scout's first report</b>Drops the daily agent finds will show up here with retail, expected resale and net profit after fees.</div>
+  </section>
+
+  <footer>
+    Resale estimates come from early StockX/GOAT asks, past sales of similar pairs and hype signals the scout finds. They move fast after release, so check the live market before you buy. Not financial advice. Built by <a href="https://techboy.dev" style="color:var(--accent)">techboy.dev</a>.
+  </footer>
+</div>
+
+<script>
+(function(){
+  const $ = s => document.querySelector(s);
+  const store = {
+    get(k,d){try{const v=localStorage.getItem(k);return v==null?d:JSON.parse(v)}catch(e){return d}},
+    set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
+  };
+  const DEF = {fee:12, tax:8, ship:15, minp:40};
+  let cfg = Object.assign({}, DEF, store.get("fr.cfg", {}));
+  let watch = new Set(store.get("fr.watch", []));
+  let filter = store.get("fr.filter", "upcoming");
+  let drops = [];
+
+  for (const k of Object.keys(DEF)) {
+    const el = $("#"+k); el.value = cfg[k];
+    el.addEventListener("input", () => { const n = parseFloat(el.value); if(!isNaN(n)){cfg[k]=n; store.set("fr.cfg",cfg); render();} });
+  }
+  $("#toggleSettings").addEventListener("click", e => {
+    const p = $("#settings"); p.hidden = !p.hidden; e.currentTarget.setAttribute("aria-expanded", String(!p.hidden));
+  });
+  document.querySelectorAll(".chip").forEach(c => {
+    c.setAttribute("aria-pressed", String(c.dataset.f === filter));
+    c.addEventListener("click", () => {
+      filter = c.dataset.f; store.set("fr.filter", filter);
+      document.querySelectorAll(".chip").forEach(x => x.setAttribute("aria-pressed", String(x === c)));
+      render();
+    });
+  });
+  $("#sort").value = store.get("fr.sort","score");
+  $("#sort").addEventListener("change", e => { store.set("fr.sort", e.target.value); render(); });
+  $("#q").addEventListener("input", render);
+
+  const money = n => (n<0?"−$":"$") + Math.abs(Math.round(n)).toLocaleString();
+  const today = () => { const d = new Date(); d.setHours(0,0,0,0); return d; };
+  const parseDate = s => { if(!s) return null; const d = new Date(s + (s.length===10?"T00:00:00":"")); return isNaN(d) ? null : d; };
+
+  function calc(d){
+    const retail = +d.retail || 0, resale = +d.estResale || 0;
+    const cost = retail * (1 + cfg.tax/100) + cfg.ship;
+    const net = resale * (1 - cfg.fee/100);
+    const profit = net - cost;
+    const roi = cost > 0 ? profit / cost : 0;
+    const conf = {high:1, medium:.85, low:.68}[d.confidence] || .8;
+    const odds = {fcfs:1, "in-store":.9, snkrs:.8, raffle:.75}[(d.method||"").toLowerCase()] || .85;
+    const hype = Math.min(5, Math.max(1, +d.hype || 3));
+    let score = (Math.min(1.5, Math.max(-.5, roi)) + .5) / 2 * 70 + hype * 6;
+    score = Math.round(Math.max(0, Math.min(100, score * conf * (0.85 + 0.15*odds))));
+    const verdict = profit >= cfg.minp && roi >= .2 ? "cop" : profit > 0 ? "maybe" : "skip";
+    return {cost, net, profit, roi, score, verdict};
+  }
+
+  function relDay(date){
+    if(!date) return "TBA";
+    const n = Math.round((date - today())/864e5);
+    if(n === 0) return "TODAY"; if(n === 1) return "TOMORROW"; if(n === -1) return "YESTERDAY";
+    return n > 0 ? "IN " + n + "D" : Math.abs(n) + "D AGO";
+  }
+
+  function el(tag, attrs, ...kids){
+    const e = document.createElement(tag);
+    for (const [k,v] of Object.entries(attrs||{})) { if(k==="class") e.className=v; else if(k==="text") e.textContent=v; else e.setAttribute(k,v); }
+    for (const k of kids) if(k!=null) e.append(k);
+    return e;
+  }
+
+  function render(){
+    const t = today();
+    const q = $("#q").value.trim().toLowerCase();
+    let rows = drops.map(d => ({d, c: calc(d), date: parseDate(d.releaseDate)}));
+    const upcoming = r => !r.date || r.date >= t;
+    if (filter === "upcoming") rows = rows.filter(upcoming);
+    if (filter === "cop") rows = rows.filter(r => upcoming(r) && r.c.verdict === "cop");
+    if (filter === "watch") rows = rows.filter(r => watch.has(r.d._id));
+    if (q) rows = rows.filter(r => [r.d.name, r.d.brand, r.d.collab, r.d.category].join(" ").toLowerCase().includes(q));
+    const s = $("#sort").value;
+    rows.sort((a,b) => s==="date" ? ((a.date||Infinity) - (b.date||Infinity)) : s==="profit" ? b.c.profit - a.c.profit : s==="roi" ? b.c.roi - a.c.roi : b.c.score - a.c.score);
+
+    // summary over all upcoming
+    const up = drops.map(d => ({d, c: calc(d), date: parseDate(d.releaseDate)})).filter(upcoming);
+    const cops = up.filter(r => r.c.verdict === "cop");
+    $("#sCop").textContent = cops.length;
+    $("#sCopSub").textContent = up.length + " upcoming tracked";
+    const best = up.slice().sort((a,b)=>b.c.profit-a.c.profit)[0];
+    $("#sBest").textContent = best ? money(best.c.profit) : "–";
+    $("#sBestSub").textContent = best ? best.d.name : "";
+    const next = up.filter(r=>r.date).sort((a,b)=>a.date-b.date)[0];
+    $("#sNext").textContent = next ? next.date.toLocaleDateString(undefined,{month:"short",day:"numeric"}) : "–";
+    $("#sNextSub").textContent = next ? next.d.name : "";
+    $("#sTotal").textContent = cops.length ? money(cops.reduce((a,r)=>a+r.c.profit,0)) : "–";
+
+    const list = $("#list"); list.replaceChildren();
+    if (!drops.length) { list.append(el("div",{class:"empty"}, el("b",{text:"Waiting for the scout's first report"}), "Drops the daily agent finds will show up here with retail, expected resale and net profit after fees.")); return; }
+    if (!rows.length) { list.append(el("div",{class:"empty"}, el("b",{text:"Nothing matches"}), filter==="watch" ? "Tap ★ on a drop to watch it." : "Try another filter or clear the search.")); return; }
+
+    for (const {d,c,date} of rows) {
+      const stub = el("div",{class:"stub"},
+        el("span",{class:"mon",text: date ? date.toLocaleDateString(undefined,{month:"short"}) : "Date"}),
+        el("span",{class:"day",text: date ? String(date.getDate()) : "TBA"}),
+        el("span",{class:"rel",text: relDay(date)}));
+      const star = el("button",{class:"star","aria-pressed":String(watch.has(d._id)),"aria-label":"Watch "+d.name,title:"Watch"});
+      star.textContent = watch.has(d._id) ? "★" : "☆";
+      star.addEventListener("click", () => { watch.has(d._id) ? watch.delete(d._id) : watch.add(d._id); store.set("fr.watch",[...watch]); render(); });
+      const meta = el("div",{class:"meta"});
+      for (const p of [d.category, d.method && d.method.toUpperCase(), d.where, d.confidence && ("conf: "+d.confidence), d.sku]) if(p) meta.append(el("span",{class:"pill",text:p}));
+      const title = el("div",{class:"title"},
+        el("div",{class:"brand"}, star, " ", d.brand + (d.collab ? " × " + d.collab : "")),
+        el("div",{class:"name",text:d.name}), meta);
+      const vlabel = {cop:"Cop", maybe:"Maybe", skip:"Skip"}[c.verdict];
+      const verdict = el("div",{class:"verdict"},
+        el("span",{class:"v "+c.verdict,text:vlabel}),
+        el("span",{class:"profit "+(c.profit>=0?"pos":"neg"),text:(c.profit>=0?"+":"")+money(c.profit)}));
+      const bar = el("span",{class:"bar"}); const fill = el("i"); fill.style.width = c.score + "%"; bar.append(fill);
+      const math = el("div",{class:"math"},
+        el("span",{}, "Retail ", el("b",{text: money(+d.retail||0)})),
+        el("span",{}, "Est. resale ", el("b",{text: money(+d.estResale||0)})),
+        el("span",{}, "All-in cost ", el("b",{text: money(c.cost)})),
+        el("span",{}, "You keep ", el("b",{text: money(c.net)})),
+        el("span",{}, "ROI ", el("b",{text: Math.round(c.roi*100)+"%"})),
+        el("span",{class:"score"}, "Score ", el("b",{text:String(c.score)}), bar));
+      const more = el("div",{class:"more"});
+      if (d.notes) more.append(el("div",{text:d.notes}));
+      if (d.resaleNote) more.append(el("div",{}, el("b",{text:"Resale basis: "}), d.resaleNote));
+      if (Array.isArray(d.sources) && d.sources.length) {
+        const ul = el("ul");
+        for (const s of d.sources) { if(!s || !/^https?:\/\//.test(s.url||"")) continue; const a = el("a",{href:s.url,target:"_blank",rel:"noopener",text:s.label||s.url}); ul.append(el("li",{},a)); }
+        more.append(el("div",{}, el("b",{text:"Sources"}), ul));
+      }
+      if (d.updated) more.append(el("div",{class:"mono",text:"Last checked " + new Date(d.updated).toLocaleString()}));
+      const det = el("details",{}, el("summary",{text:"Why this rating + sources"}), more);
+      const body = el("div",{class:"body"}, title, verdict, math, det);
+      list.append(el("article",{class:"ticket"}, stub, body));
+    }
+  }
+
+  function showMeta(m){
+    if(!m){ $("#lastRun").textContent = "Scout hasn't run yet"; return; }
+    const when = m.lastRun ? new Date(m.lastRun) : null;
+    const hrs = when ? (Date.now() - when)/36e5 : Infinity;
+    $("#pulse").classList.toggle("stale", hrs > 30);
+    $("#lastRun").textContent = when ? "Scouted " + when.toLocaleString(undefined,{month:"short",day:"numeric",hour:"numeric",minute:"2-digit"}) : "Scout hasn't run yet";
+    if (m.summary) { $("#log").hidden = false; $("#log").textContent = m.summary; }
+  }
+
+  render();
+  fetch("data/drops.json?t=" + Date.now(), {cache:"no-store"})
+    .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
+    .then(j => {
+      drops = (j.drops || []).map(d => Object.assign({_id: d.id}, d));
+      $("#count").textContent = drops.length + " drops tracked";
+      showMeta(j); render();
+    })
+    .catch(() => { $("#lastRun").textContent = "Couldn't load drop data. Refresh to try again."; $("#pulse").classList.add("stale"); });
+})();
+</script>
+
+</body>
+</html>

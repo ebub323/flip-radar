@@ -1,6 +1,6 @@
 {
-  "lastRun": "2026-11-18T12:00:00Z",
-  "summary": "Today's picks: Travis Scott × GTA 6 AF1 (Nov 19) and Corteiz Shox R419 Silver (Nov 20) are the strongest flips. AJ11 Space Jam has hype but huge supply, so it rates Maybe. MM6 × Salomon drop 2 went live Nov 17. New today: tech, LEGO and trading-card picks. None of them clear fees as a quick flip yet: the Zelda Switch 2 is a thin Maybe if it restocks at retail, and the retiring LEGO sets are long holds.",
+  "lastRun": "2026-11-18T13:38:01Z",
+  "summary": "Best flips: Travis Scott × GTA 6 AF1 (Nov 19, $130 → ~$260) and Corteiz Shox R419 Silver (Nov 20, $190 → ~$330). New today: AJ4 Bred (Nov 27) has the hype but a wide run, so it's a pass at retail; Supreme × Dickies (Nov 19) is a thin maybe, and the GTA 6 DualSense (Nov 19) doesn't clear fees at retail. Unova Heavy Hitters gets a $59.99 retail release on Dec 4, a small-margin card flip if you get it at list.",
   "drops": [
     {
       "brand": "Jordan",
@@ -191,7 +191,8 @@
           "label": "Corteiz",
           "url": "https://www.crtz.xyz"
         }
-      ]
+      ],
+      "shipping": 15
     },
     {
       "brand": "Nike",
@@ -261,7 +262,7 @@
           "url": "https://www.soleretriever.com/news/articles/corteiz-nike-shox-r419-release-date-holiday-2026"
         }
       ],
-      "updated": "2026-11-18T12:00:00Z",
+      "updated": "2026-11-18T13:38:01Z",
       "where": "Nike SNKRS, Corteiz site",
       "id": "corteiz-shox-r419-silver",
       "buyLinks": [
@@ -482,14 +483,14 @@
       "category": "Sneakers",
       "collab": "Travis Scott / Rockstar Games",
       "confidence": "medium",
-      "estResale": 320,
+      "estResale": 260,
       "firstSeen": "2026-11-18",
       "hype": 5,
       "method": "SNKRS",
       "name": "Air Force 1 Low \"GTA 6\" Pack",
       "notes": "Drops the same day as GTA 6. One Friends & Family colorway stays exclusive. Nike and Rockstar have not officially confirmed it, so treat the date as likely, not certain.",
       "releaseDate": "2026-11-19",
-      "resaleNote": "Past Travis Scott AF1s averaged $400 in year one (167% premium) and the Cactus Jack AF1 held ~$590. Discounted for what will likely be a large run at $130.",
+      "resaleNote": "StockX shows highest bids of $332 (Multi-Color) and $300 (Black/Fire Pink) with no completed sales yet; estimate is discounted because this is reported as a large release.",
       "retail": 130,
       "sources": [
         {
@@ -503,9 +504,17 @@
         {
           "label": "StockX: Travis AF1 by the numbers",
           "url": "https://stockx.com/news/fr-ca/nike-air-force-1-cactus-jack-by-the-numbers/"
+        },
+        {
+          "label": "StockX – Multi-Color",
+          "url": "https://stockx.com/nike-air-force-1-low-travis-scott-x-rockstar-games-gta-6-multi-color"
+        },
+        {
+          "label": "Resell Calendar",
+          "url": "https://resellcalendar.com/news/news/travis-scott-gta-6-sneaker-reseller-nike-af1/"
         }
       ],
-      "updated": "2026-11-18T12:00:00Z",
+      "updated": "2026-11-18T13:38:01Z",
       "where": "Nike SNKRS, Cactus Jack",
       "id": "ts-gta6-af1",
       "buyLinks": [
@@ -635,7 +644,7 @@
         }
       ],
       "firstSeen": "2026-11-18",
-      "updated": "2026-11-19T02:00:00Z"
+      "updated": "2026-11-18T13:38:01Z"
     },
     {
       "id": "lego-city-tower",
@@ -674,7 +683,7 @@
         }
       ],
       "firstSeen": "2026-11-18",
-      "updated": "2026-11-19T02:00:00Z"
+      "updated": "2026-11-18T13:38:01Z"
     },
     {
       "id": "lego-75192-millennium-falcon",
@@ -709,7 +718,7 @@
         }
       ],
       "firstSeen": "2026-11-18",
-      "updated": "2026-11-19T02:00:00Z"
+      "updated": "2026-11-18T13:38:01Z"
     },
     {
       "id": "lego-10341-artemis-sls",
@@ -748,7 +757,7 @@
         }
       ],
       "firstSeen": "2026-11-18",
-      "updated": "2026-11-19T02:00:00Z"
+      "updated": "2026-11-18T13:38:01Z"
     },
     {
       "id": "pokemon-unova-heavy-hitters",
@@ -756,17 +765,21 @@
       "brand": "Pokémon TCG",
       "collab": "",
       "category": "Trading cards",
-      "releaseDate": "",
-      "retail": 159.99,
-      "estResale": 180,
+      "releaseDate": "2026-12-04",
+      "retail": 59.99,
+      "estResale": 115,
       "shipping": 10,
-      "confidence": "medium",
-      "hype": 3,
+      "confidence": "low",
+      "hype": 4,
       "method": "FCFS",
       "where": "Target, Walmart, Amazon, local game stores",
-      "notes": "Released July 2025 and still restocking. Only worth it when you find it under list price; at $159.99 it's a skip.",
-      "resaleNote": "TCGplayer market price is about $180 (PokemonWizard, PokeInvesting).",
+      "notes": "ICv2 reports a wide retail release on Dec 4, 2026 at $59.99 (12 Black Bolt/White Flare packs plus promos). A broad restock will pull prices down from today's level, so treat it as a quick flip only if you get it at list.",
+      "resaleNote": "The 2025 Costco version trades around $168-180 on TCGplayer; estimate is cut hard for the much bigger retail run.",
       "sources": [
+        {
+          "label": "ICv2",
+          "url": "https://icv2.com/articles/news/view/63405/pokemon-tcg-unova-heavy-hitters-premium-collection-incoming"
+        },
         {
           "label": "PokemonWizard price",
           "url": "https://www.pokemonwizard.com/products/668632/unova-heavy-hitters-premium-collection"
@@ -787,7 +800,129 @@
         }
       ],
       "firstSeen": "2026-11-18",
-      "updated": "2026-11-19T02:00:00Z"
+      "updated": "2026-11-18T13:38:01Z"
+    },
+    {
+      "id": "aj4-bred-2026",
+      "name": "Air Jordan 4 Retro OG \"Bred\" (2026)",
+      "brand": "Jordan",
+      "collab": "",
+      "sku": "IX8180-001",
+      "category": "Sneakers",
+      "releaseDate": "2026-11-27",
+      "retail": 230,
+      "estResale": 270,
+      "shipping": 15,
+      "confidence": "medium",
+      "hype": 5,
+      "method": "SNKRS",
+      "where": "Nike SNKRS, Foot Locker, JD Sports, Finish Line, Hibbett",
+      "buyLinks": [
+        {
+          "label": "Nike SNKRS",
+          "url": "https://www.nike.com/launch"
+        },
+        {
+          "label": "Foot Locker",
+          "url": "https://www.footlocker.com"
+        },
+        {
+          "label": "JD Sports",
+          "url": "https://www.jdsports.com"
+        },
+        {
+          "label": "Finish Line",
+          "url": "https://www.finishline.com"
+        }
+      ],
+      "notes": "Black Friday drop on Nov 27 with the OG nubuck upper. Expected to be a wide general release, so it's a big name but a thin flip.",
+      "resaleNote": "Based on the 2024 Bred Reimagined, which traded near retail after its large run; one source lists $220 retail instead of $230.",
+      "sources": [
+        {
+          "label": "Sneaker News",
+          "url": "https://sneakernews.com/2026/11/09/air-jordan-4-bred-release-date/"
+        },
+        {
+          "label": "Complex",
+          "url": "https://www.complex.com/sneakers/a/victor-deng/air-jordan-4-retro-bred-2026-release-date"
+        }
+      ],
+      "firstSeen": "2026-11-18",
+      "updated": "2026-11-18T13:38:01Z"
+    },
+    {
+      "id": "supreme-dickies-fw26",
+      "name": "Supreme x Dickies FW26 (Week 14) – Quilted Zip Up Hooded Sweatshirt",
+      "brand": "Supreme",
+      "collab": "Dickies",
+      "category": "Apparel",
+      "releaseDate": "2026-11-19",
+      "retail": 158,
+      "estResale": 225,
+      "shipping": 15,
+      "confidence": "low",
+      "hype": 3,
+      "method": "FCFS",
+      "where": "Supreme online and stores (Thursday 11am ET)",
+      "buyLinks": [
+        {
+          "label": "Supreme",
+          "url": "https://www.supreme.com"
+        }
+      ],
+      "notes": "Seven-piece Dickies capsule in the Nov 19 Week 14 drop, alongside a flannel-lined work jacket and double-knee painter pant. Final prices weren't confirmed; dark colorways and the jackets usually do best.",
+      "resaleNote": "FW25 Supreme x Dickies quilted hoodies ($158 retail) last sold $219-287 on StockX; retail assumed equal to FW25.",
+      "sources": [
+        {
+          "label": "SupremeCommunity – next drop",
+          "url": "https://www.supremecommunity.com/next-drop/"
+        },
+        {
+          "label": "drops.gg – Week 14",
+          "url": "https://drops.gg/archives/fw26/week-14/supreme%C2%AE-dickies%C2%AE-leather-hooded-work-jacket"
+        },
+        {
+          "label": "StockX – FW25 Dickies hoodie",
+          "url": "https://stockx.com/supreme-dickies-quilted-lined-zip-up-hooded-sweatshirt-fw25-black"
+        }
+      ],
+      "firstSeen": "2026-11-18",
+      "updated": "2026-11-18T13:38:01Z"
+    },
+    {
+      "id": "gta6-dualsense-limited",
+      "name": "DualSense Wireless Controller – Grand Theft Auto VI Limited Edition",
+      "brand": "PlayStation",
+      "collab": "Rockstar Games",
+      "category": "Tech",
+      "releaseDate": "2026-11-19",
+      "retail": 84.99,
+      "estResale": 115,
+      "shipping": 12,
+      "confidence": "low",
+      "hype": 4,
+      "method": "FCFS",
+      "where": "PlayStation Direct (limit 1 per order), participating retailers",
+      "buyLinks": [
+        {
+          "label": "PlayStation Direct",
+          "url": "https://direct.playstation.com"
+        }
+      ],
+      "notes": "Launches with GTA 6 on Nov 19 in limited quantities. Past themed DualSense editions mostly restocked, so this is a quick flip at best.",
+      "resaleNote": "No sales data yet; price and launch details come from smaller outlets (Tech Insider, WrestleSite), so treat the estimate as a guess.",
+      "sources": [
+        {
+          "label": "Tech Insider",
+          "url": "https://tech-insider.org/gta-6-dualsense-controller-price-2026/"
+        },
+        {
+          "label": "WrestleSite",
+          "url": "https://wrestlesite.com/gta-6-limited-edition-dualsense-controller-opens-for-pre-order/"
+        }
+      ],
+      "firstSeen": "2026-11-18",
+      "updated": "2026-11-18T13:38:01Z"
     }
   ]
 }

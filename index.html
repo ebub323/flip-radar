@@ -76,6 +76,12 @@ summary::-webkit-details-marker{display:none}
 .more{display:flex;flex-direction:column;gap:8px;padding-top:8px;font-size:14px;max-width:70ch}
 .more a{color:var(--accent);overflow-wrap:anywhere}
 .more ul{margin:0;padding-left:18px}
+.buy{grid-column:1/-1;display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:2px}
+.buy .lbl{font:600 11.5px var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-right:2px}
+.buy a{font:600 12.5px var(--body);text-decoration:none;padding:5px 10px;border-radius:999px;border:1px solid var(--accent);color:var(--accent);background:transparent}
+.buy a:hover{background:var(--accent);color:var(--accent-ink)}
+.buy a.alt{border-color:var(--line);color:var(--muted)}
+.buy a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .star{background:none;border:0;cursor:pointer;font-size:18px;color:var(--muted);padding:0 2px;line-height:1}
 .star[aria-pressed="true"]{color:var(--accent)}
 .empty{background:var(--paper);border:1px dashed var(--line);border-radius:6px;padding:28px;text-align:center;color:var(--muted)}
@@ -99,7 +105,7 @@ footer{font-size:12.5px;color:var(--muted);max-width:75ch}
 <div class="wrap">
   <header>
     <div>
-      <div class="tag">Daily scout · limited drops · resale math</div>
+      <div class="tag">Daily scout · sneakers, streetwear, tech, art, collectibles · resale math</div>
       <h1>Flip<span>/</span>Radar</h1>
     </div>
     <div class="stamp">
@@ -123,6 +129,9 @@ footer{font-size:12.5px;color:var(--muted);max-width:75ch}
     <button class="chip" data-f="watch" aria-pressed="false">★ Watching</button>
     <button class="chip" data-f="all" aria-pressed="false">Everything</button>
     <span class="spacer"></span>
+    <select id="cat" aria-label="Category">
+      <option value="">All categories</option>
+    </select>
     <select id="sort" aria-label="Sort by">
       <option value="score">Sort: Flip score</option>
       <option value="profit">Sort: Net profit</option>
@@ -136,9 +145,9 @@ footer{font-size:12.5px;color:var(--muted);max-width:75ch}
   <section class="panel" id="settings" hidden>
     <label>Seller fee %<input id="fee" type="number" min="0" max="40" step="0.5"></label>
     <label>Sales tax on retail %<input id="tax" type="number" min="0" max="15" step="0.25"></label>
-    <label>Shipping + extras $<input id="ship" type="number" min="0" max="100" step="1"></label>
+    <label>Default shipping + extras $<input id="ship" type="number" min="0" max="100" step="1"></label>
     <label>Min profit for "Cop" $<input id="minp" type="number" min="0" max="1000" step="5"></label>
-    <p>Defaults approximate StockX/GOAT seller fee plus payment processing (~12%), 8% sales tax and $15 for shipping to you. Saved in this browser only.</p>
+    <p>Defaults approximate a StockX/GOAT/eBay seller fee plus payment processing (~12%), 8% sales tax and $15 for shipping to you. Items with their own shipping cost (cards, prints, small tech) use that instead. Saved in this browser only.</p>
   </section>
 
   <section class="list" id="list" aria-live="polite">
@@ -188,7 +197,8 @@ footer{font-size:12.5px;color:var(--muted);max-width:75ch}
 
   function calc(d){
     const retail = +d.retail || 0, resale = +d.estResale || 0;
-    const cost = retail * (1 + cfg.tax/100) + cfg.ship;
+    const ship = (d.shipping != null && !isNaN(+d.shipping)) ? +d.shipping : cfg.ship;
+    const cost = retail * (1 + cfg.tax/100) + ship;
     const net = resale * (1 - cfg.fee/100);
     const profit = net - cost;
     const roi = cost > 0 ? profit / cost : 0;
@@ -223,6 +233,8 @@ footer{font-size:12.5px;color:var(--muted);max-width:75ch}
     if (filter === "upcoming") rows = rows.filter(upcoming);
     if (filter === "cop") rows = rows.filter(r => upcoming(r) && r.c.verdict === "cop");
     if (filter === "watch") rows = rows.filter(r => watch.has(r.d._id));
+    const cat = $("#cat").value;
+    if (cat) rows = rows.filter(r => (r.d.category || "Other") === cat);
     if (q) rows = rows.filter(r => [r.d.name, r.d.brand, r.d.collab, r.d.category].join(" ").toLowerCase().includes(q));
     const s = $("#sort").value;
     rows.sort((a,b) => s==="date" ? ((a.date||Infinity) - (b.date||Infinity)) : s==="profit" ? b.c.profit - a.c.profit : s==="roi" ? b.c.roi - a.c.roi : b.c.score - a.c.score);
@@ -279,7 +291,19 @@ footer{font-size:12.5px;color:var(--muted);max-width:75ch}
       }
       if (d.updated) more.append(el("div",{class:"mono",text:"Last checked " + new Date(d.updated).toLocaleString()}));
       const det = el("details",{}, el("summary",{text:"Why this rating + sources"}), more);
-      const body = el("div",{class:"body"}, title, verdict, math, det);
+      const buy = el("div",{class:"buy"}, el("span",{class:"lbl",text:"Where to buy"}));
+      const safe = u => { try { const x = new URL(u); return (x.protocol === "https:" || x.protocol === "http:") ? x.href : null; } catch(e) { return null; } };
+      let nBuy = 0;
+      for (const b of (Array.isArray(d.buyLinks) ? d.buyLinks : [])) {
+        const href = b && safe(b.url); if (!href) continue;
+        buy.append(el("a",{href, target:"_blank", rel:"noopener noreferrer", text: b.label || new URL(href).hostname}));
+        nBuy++;
+      }
+      if (!nBuy) buy.append(el("span",{class:"pill",text:"Retailer not announced yet"}));
+      const qs = encodeURIComponent([d.collab, d.brand, d.name].filter(Boolean).join(" "));
+      buy.append(el("a",{class:"alt",href:"https://stockx.com/search?s="+qs,target:"_blank",rel:"noopener noreferrer",text:"Check StockX"}));
+      buy.append(el("a",{class:"alt",href:"https://www.ebay.com/sch/i.html?LH_Sold=1&LH_Complete=1&_nkw="+qs,target:"_blank",rel:"noopener noreferrer",text:"eBay sold prices"}));
+      const body = el("div",{class:"body"}, title, verdict, math, buy, det);
       list.append(el("article",{class:"ticket"}, stub, body));
     }
   }
@@ -298,6 +322,11 @@ footer{font-size:12.5px;color:var(--muted);max-width:75ch}
     .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
     .then(j => {
       drops = (j.drops || []).map(d => Object.assign({_id: d.id}, d));
+      const catSel = $("#cat"), want = store.get("fr.cat", "");
+      const cats = [...new Set(drops.map(d => d.category || "Other"))].sort();
+      for (const c of cats) catSel.append(el("option",{value:c,text:c}));
+      if (cats.includes(want)) catSel.value = want;
+      catSel.addEventListener("change", () => { store.set("fr.cat", catSel.value); render(); });
       $("#count").textContent = drops.length + " drops tracked";
       showMeta(j); render();
     })

@@ -1,6 +1,6 @@
 {
   "lastRun": "2026-11-18T12:00:00Z",
-  "summary": "Today's picks: Travis Scott × GTA 6 AF1 (Nov 19) and Corteiz Shox R419 Silver (Nov 20) are the strongest flips. AJ11 Space Jam has hype but huge supply, so it rates Maybe. MM6 × Salomon drop 2 went live Nov 17.",
+  "summary": "Today's picks: Travis Scott × GTA 6 AF1 (Nov 19) and Corteiz Shox R419 Silver (Nov 20) are the strongest flips. AJ11 Space Jam has hype but huge supply, so it rates Maybe. MM6 × Salomon drop 2 went live Nov 17. New today: tech, LEGO and trading-card picks. None of them clear fees as a quick flip yet: the Zelda Switch 2 is a thin Maybe if it restocks at retail, and the retiring LEGO sets are long holds.",
   "drops": [
     {
       "brand": "Jordan",
@@ -24,7 +24,18 @@
       ],
       "updated": "2026-11-18T12:00:00Z",
       "where": "Nike SNKRS, retailers",
-      "id": "aj10-sacramento"
+      "id": "aj10-sacramento",
+      "buyLinks": [
+        {
+          "label": "Nike SNKRS",
+          "url": "https://www.nike.com/launch"
+        },
+        {
+          "label": "Foot Locker",
+          "url": "https://www.footlocker.com"
+        }
+      ],
+      "shipping": 15
     },
     {
       "brand": "Jordan",
@@ -57,7 +68,22 @@
       ],
       "updated": "2026-11-18T12:00:00Z",
       "where": "Nike SNKRS, DICK'S, Foot Locker",
-      "id": "aj11-space-jam-2026"
+      "id": "aj11-space-jam-2026",
+      "buyLinks": [
+        {
+          "label": "Nike SNKRS",
+          "url": "https://www.nike.com/launch"
+        },
+        {
+          "label": "Foot Locker",
+          "url": "https://www.footlocker.com"
+        },
+        {
+          "label": "DICK'S",
+          "url": "https://www.dickssportinggoods.com"
+        }
+      ],
+      "shipping": 15
     },
     {
       "brand": "adidas",
@@ -81,7 +107,18 @@
       ],
       "updated": "2026-11-18T12:00:00Z",
       "where": "Brain Dead, adidas",
-      "id": "braindead-zuperklimb"
+      "id": "braindead-zuperklimb",
+      "buyLinks": [
+        {
+          "label": "Brain Dead",
+          "url": "https://wearebraindead.com"
+        },
+        {
+          "label": "adidas releases",
+          "url": "https://www.adidas.com/us/release-dates"
+        }
+      ],
+      "shipping": 15
     },
     {
       "brand": "Nike",
@@ -105,7 +142,18 @@
       ],
       "updated": "2026-11-18T12:00:00Z",
       "where": "Carhartt WIP, Nike",
-      "id": "carhartt-goadome-black"
+      "id": "carhartt-goadome-black",
+      "buyLinks": [
+        {
+          "label": "Carhartt WIP",
+          "url": "https://www.carhartt-wip.com"
+        },
+        {
+          "label": "Nike SNKRS",
+          "url": "https://www.nike.com/launch"
+        }
+      ],
+      "shipping": 15
     },
     {
       "brand": "Nike",
@@ -133,7 +181,17 @@
       ],
       "updated": "2026-11-18T12:00:00Z",
       "where": "Nike.com, Corteiz site",
-      "id": "corteiz-nike-apparel-fw26"
+      "id": "corteiz-nike-apparel-fw26",
+      "buyLinks": [
+        {
+          "label": "Nike.com",
+          "url": "https://www.nike.com"
+        },
+        {
+          "label": "Corteiz",
+          "url": "https://www.crtz.xyz"
+        }
+      ]
     },
     {
       "brand": "Nike",
@@ -161,7 +219,18 @@
       ],
       "updated": "2026-11-18T12:00:00Z",
       "where": "Nike SNKRS, Corteiz site",
-      "id": "corteiz-shox-r419-black"
+      "id": "corteiz-shox-r419-black",
+      "buyLinks": [
+        {
+          "label": "Nike SNKRS",
+          "url": "https://www.nike.com/launch"
+        },
+        {
+          "label": "Corteiz",
+          "url": "https://www.crtz.xyz"
+        }
+      ],
+      "shipping": 15
     },
     {
       "brand": "Nike",
@@ -194,7 +263,18 @@
       ],
       "updated": "2026-11-18T12:00:00Z",
       "where": "Nike SNKRS, Corteiz site",
-      "id": "corteiz-shox-r419-silver"
+      "id": "corteiz-shox-r419-silver",
+      "buyLinks": [
+        {
+          "label": "Nike SNKRS",
+          "url": "https://www.nike.com/launch"
+        },
+        {
+          "label": "Corteiz",
+          "url": "https://www.crtz.xyz"
+        }
+      ],
+      "shipping": 15
     },
     {
       "brand": "Nike",
@@ -218,7 +298,9 @@
       ],
       "updated": "2026-11-18T12:00:00Z",
       "where": "HOMERUN NYC",
-      "id": "homerun-airtrainer-sc"
+      "id": "homerun-airtrainer-sc",
+      "buyLinks": [],
+      "shipping": 15
     },
     {
       "brand": "Nike",
@@ -242,7 +324,18 @@
       ],
       "updated": "2026-11-18T12:00:00Z",
       "where": "Nike SNKRS",
-      "id": "kd6-aunt-pearl"
+      "id": "kd6-aunt-pearl",
+      "buyLinks": [
+        {
+          "label": "Nike SNKRS",
+          "url": "https://www.nike.com/launch"
+        },
+        {
+          "label": "Foot Locker",
+          "url": "https://www.footlocker.com"
+        }
+      ],
+      "shipping": 15
     },
     {
       "brand": "Nike",
@@ -266,7 +359,18 @@
       ],
       "updated": "2026-11-18T12:00:00Z",
       "where": "Nike, Foot Locker",
-      "id": "lebron24-chosen1"
+      "id": "lebron24-chosen1",
+      "buyLinks": [
+        {
+          "label": "Nike SNKRS",
+          "url": "https://www.nike.com/launch"
+        },
+        {
+          "label": "Foot Locker",
+          "url": "https://www.footlocker.com"
+        }
+      ],
+      "shipping": 15
     },
     {
       "brand": "Salomon",
@@ -294,7 +398,18 @@
       ],
       "updated": "2026-11-18T12:00:00Z",
       "where": "Salomon.com, MM6 boutiques",
-      "id": "mm6-salomon-fw26-drop2"
+      "id": "mm6-salomon-fw26-drop2",
+      "buyLinks": [
+        {
+          "label": "Salomon",
+          "url": "https://www.salomon.com"
+        },
+        {
+          "label": "Maison Margiela",
+          "url": "https://www.maisonmargiela.com"
+        }
+      ],
+      "shipping": 15
     },
     {
       "brand": "adidas",
@@ -318,7 +433,14 @@
       ],
       "updated": "2026-11-18T12:00:00Z",
       "where": "adidas Confirmed",
-      "id": "pharrell-adistar-jellyfish"
+      "id": "pharrell-adistar-jellyfish",
+      "buyLinks": [
+        {
+          "label": "adidas releases",
+          "url": "https://www.adidas.com/us/release-dates"
+        }
+      ],
+      "shipping": 15
     },
     {
       "brand": "Nike",
@@ -342,7 +464,18 @@
       ],
       "updated": "2026-11-18T12:00:00Z",
       "where": "Slam Jam, select shops",
-      "id": "slamjam-am97"
+      "id": "slamjam-am97",
+      "buyLinks": [
+        {
+          "label": "Slam Jam",
+          "url": "https://www.slamjam.com"
+        },
+        {
+          "label": "Nike SNKRS",
+          "url": "https://www.nike.com/launch"
+        }
+      ],
+      "shipping": 15
     },
     {
       "brand": "Nike",
@@ -374,7 +507,18 @@
       ],
       "updated": "2026-11-18T12:00:00Z",
       "where": "Nike SNKRS, Cactus Jack",
-      "id": "ts-gta6-af1"
+      "id": "ts-gta6-af1",
+      "buyLinks": [
+        {
+          "label": "Nike SNKRS",
+          "url": "https://www.nike.com/launch"
+        },
+        {
+          "label": "Cactus Jack",
+          "url": "https://shop.travisscott.com"
+        }
+      ],
+      "shipping": 15
     },
     {
       "brand": "Jordan",
@@ -398,7 +542,18 @@
       ],
       "updated": "2026-11-18T12:00:00Z",
       "where": "Nike SNKRS, Travis Scott site",
-      "id": "ts-jumpman-jack-taupe"
+      "id": "ts-jumpman-jack-taupe",
+      "buyLinks": [
+        {
+          "label": "Nike SNKRS",
+          "url": "https://www.nike.com/launch"
+        },
+        {
+          "label": "Cactus Jack",
+          "url": "https://shop.travisscott.com"
+        }
+      ],
+      "shipping": 15
     },
     {
       "brand": "Nike",
@@ -422,7 +577,217 @@
       ],
       "updated": "2026-11-18T12:00:00Z",
       "where": "Union LA, Nike",
-      "id": "union-cortez"
+      "id": "union-cortez",
+      "buyLinks": [
+        {
+          "label": "Union LA",
+          "url": "https://store.unionlosangeles.com"
+        },
+        {
+          "label": "Nike SNKRS",
+          "url": "https://www.nike.com/launch"
+        }
+      ],
+      "shipping": 15
+    },
+    {
+      "id": "switch2-zelda-40th",
+      "name": "Switch 2 – Zelda 40th Anniversary Edition",
+      "brand": "Nintendo",
+      "collab": "The Legend of Zelda",
+      "category": "Tech",
+      "releaseDate": "",
+      "retail": 519.99,
+      "estResale": 700,
+      "shipping": 20,
+      "confidence": "low",
+      "hype": 5,
+      "method": "FCFS",
+      "where": "Nintendo Store, Best Buy, Target, Walmart",
+      "notes": "Sold out at every major US retailer within about four hours of preorders on Sept 8, 2026. No restock date announced; this is a restock watch.",
+      "resaleNote": "Reports put secondary prices near $900, but they come from smaller outlets; the estimate assumes prices soften once restocks land.",
+      "sources": [
+        {
+          "label": "Nintendo Life",
+          "url": "https://www.nintendolife.com/news/2026/09/zeldas-limited-edition-switch-2-and-other-40th-anniversary-items-are-already-selling-out-unsurprisingly"
+        },
+        {
+          "label": "Tech Insider",
+          "url": "https://tech-insider.org/zelda-40th-anniversary-switch-2-sellout-scalpers-2026/"
+        }
+      ],
+      "buyLinks": [
+        {
+          "label": "Nintendo Store",
+          "url": "https://www.nintendo.com/us/store/"
+        },
+        {
+          "label": "Best Buy",
+          "url": "https://www.bestbuy.com"
+        },
+        {
+          "label": "Target",
+          "url": "https://www.target.com"
+        },
+        {
+          "label": "Walmart",
+          "url": "https://www.walmart.com"
+        }
+      ],
+      "firstSeen": "2026-11-18",
+      "updated": "2026-11-19T02:00:00Z"
+    },
+    {
+      "id": "lego-city-tower",
+      "name": "LEGO City – The City Tower (retiring)",
+      "brand": "LEGO",
+      "collab": "",
+      "category": "Toys & LEGO",
+      "releaseDate": "2026-12-31",
+      "retail": 209.99,
+      "estResale": 279,
+      "shipping": 20,
+      "confidence": "medium",
+      "hype": 3,
+      "method": "FCFS",
+      "where": "LEGO.com, Target, Amazon",
+      "notes": "Expected to retire at the end of 2026 (LEGO doesn't confirm dates). Buy before it leaves shelves and plan to hold several months.",
+      "resaleNote": "BrickEconomy's October guide estimates $279.30, a 33% premium over retail.",
+      "sources": [
+        {
+          "label": "BrickEconomy (Oct)",
+          "url": "https://www.brickeconomy.com/article/top-lego-sets-retiring-2026-investment-october"
+        },
+        {
+          "label": "Brickfact retiring list",
+          "url": "https://brickfact.com/en-gb/end-of-life"
+        }
+      ],
+      "buyLinks": [
+        {
+          "label": "LEGO retiring soon",
+          "url": "https://www.lego.com/en-us/categories/retiring-soon"
+        },
+        {
+          "label": "Target",
+          "url": "https://www.target.com"
+        }
+      ],
+      "firstSeen": "2026-11-18",
+      "updated": "2026-11-19T02:00:00Z"
+    },
+    {
+      "id": "lego-75192-millennium-falcon",
+      "name": "LEGO Star Wars UCS Millennium Falcon 75192 (retiring)",
+      "brand": "LEGO",
+      "collab": "Star Wars",
+      "category": "Toys & LEGO",
+      "releaseDate": "2026-12-31",
+      "retail": 849.99,
+      "estResale": 900,
+      "shipping": 40,
+      "confidence": "low",
+      "hype": 4,
+      "method": "FCFS",
+      "where": "LEGO.com",
+      "notes": "Flagged to retire in December 2026 after nearly a decade on sale; already sold out in some regions. It has been extended before, so the date may slip.",
+      "resaleNote": "Big retired UCS sets usually climb over 1-2 years, but near-term resale barely clears retail after fees. A long hold, not a quick flip.",
+      "sources": [
+        {
+          "label": "Brick Fanatics",
+          "url": "https://www.brickfanatics.com/the-10-biggest-lego-sets-retiring-end-of-2026"
+        },
+        {
+          "label": "BrickEconomy retiring soon",
+          "url": "https://www.brickeconomy.com/sets/retiring-soon"
+        }
+      ],
+      "buyLinks": [
+        {
+          "label": "LEGO retiring soon",
+          "url": "https://www.lego.com/en-us/categories/retiring-soon"
+        }
+      ],
+      "firstSeen": "2026-11-18",
+      "updated": "2026-11-19T02:00:00Z"
+    },
+    {
+      "id": "lego-10341-artemis-sls",
+      "name": "LEGO Icons NASA Artemis Space Launch System 10341 (retiring)",
+      "brand": "LEGO",
+      "collab": "NASA",
+      "category": "Toys & LEGO",
+      "releaseDate": "2026-12-31",
+      "retail": 259.99,
+      "estResale": 300,
+      "shipping": 20,
+      "confidence": "low",
+      "hype": 3,
+      "method": "FCFS",
+      "where": "LEGO.com, Target, Amazon",
+      "notes": "Listed to retire in December 2026. Space sets have a steady adult-collector market.",
+      "resaleNote": "No current post-retirement data yet; estimate assumes a modest ~15% premium in the first months.",
+      "sources": [
+        {
+          "label": "Stonewars retiring 2026",
+          "url": "https://stonewars.com/news/retiring-2026/"
+        },
+        {
+          "label": "Brick Fanatics",
+          "url": "https://www.brickfanatics.com/the-10-biggest-lego-sets-retiring-end-of-2026"
+        }
+      ],
+      "buyLinks": [
+        {
+          "label": "LEGO retiring soon",
+          "url": "https://www.lego.com/en-us/categories/retiring-soon"
+        },
+        {
+          "label": "Target",
+          "url": "https://www.target.com"
+        }
+      ],
+      "firstSeen": "2026-11-18",
+      "updated": "2026-11-19T02:00:00Z"
+    },
+    {
+      "id": "pokemon-unova-heavy-hitters",
+      "name": "Pokémon TCG Unova Heavy Hitters Premium Collection",
+      "brand": "Pokémon TCG",
+      "collab": "",
+      "category": "Trading cards",
+      "releaseDate": "",
+      "retail": 159.99,
+      "estResale": 180,
+      "shipping": 10,
+      "confidence": "medium",
+      "hype": 3,
+      "method": "FCFS",
+      "where": "Target, Walmart, Amazon, local game stores",
+      "notes": "Released July 2025 and still restocking. Only worth it when you find it under list price; at $159.99 it's a skip.",
+      "resaleNote": "TCGplayer market price is about $180 (PokemonWizard, PokeInvesting).",
+      "sources": [
+        {
+          "label": "PokemonWizard price",
+          "url": "https://www.pokemonwizard.com/products/668632/unova-heavy-hitters-premium-collection"
+        },
+        {
+          "label": "PokeInvesting",
+          "url": "https://pokeinvesting.com/sealed/unova-heavy-hitters-premium-collection"
+        }
+      ],
+      "buyLinks": [
+        {
+          "label": "Target",
+          "url": "https://www.target.com/p/-/A-1008355524"
+        },
+        {
+          "label": "Walmart",
+          "url": "https://www.walmart.com/ip/Pokemon-TCG-Unova-Heavy-Hitters-Premium-Collection/18962764923"
+        }
+      ],
+      "firstSeen": "2026-11-18",
+      "updated": "2026-11-19T02:00:00Z"
     }
   ]
 }

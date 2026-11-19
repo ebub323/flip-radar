@@ -1,6 +1,6 @@
 {
-  "lastRun": "2026-11-18T13:38:01Z",
-  "summary": "Best flips: Travis Scott × GTA 6 AF1 (Nov 19, $130 → ~$260) and Corteiz Shox R419 Silver (Nov 20, $190 → ~$330). New today: AJ4 Bred (Nov 27) has the hype but a wide run, so it's a pass at retail; Supreme × Dickies (Nov 19) is a thin maybe, and the GTA 6 DualSense (Nov 19) doesn't clear fees at retail. Unova Heavy Hitters gets a $59.99 retail release on Dec 4, a small-margin card flip if you get it at list.",
+  "lastRun": "2026-11-19T13:02:01Z",
+  "summary": "Best flips: Travis Scott × GTA 6 AF1 (Nov 19, white pair Nov 21 on SNKRS; $130 → ~$280) and Corteiz Shox R419 Metallic Silver (Nov 20, $190 → ~$330). New today: the Pokémon 30th Celebration Ultra-Premium Collection ($179.99, trading ~$340–370) is a restock watch worth grabbing at list. Gran Turismo DualSense (Dec 10) and Kobe AD Protro Laser Orange were checked and skipped as too thin at retail.",
   "drops": [
     {
       "brand": "Jordan",
@@ -262,7 +262,7 @@
           "url": "https://www.soleretriever.com/news/articles/corteiz-nike-shox-r419-release-date-holiday-2026"
         }
       ],
-      "updated": "2026-11-18T13:38:01Z",
+      "updated": "2026-11-19T13:02:01Z",
       "where": "Nike SNKRS, Corteiz site",
       "id": "corteiz-shox-r419-silver",
       "buyLinks": [
@@ -297,10 +297,15 @@
           "url": "https://houseofheat.co/upcoming-sneaker-releases-november-2026"
         }
       ],
-      "updated": "2026-11-18T12:00:00Z",
+      "updated": "2026-11-19T13:02:01Z",
       "where": "HOMERUN NYC",
       "id": "homerun-airtrainer-sc",
-      "buyLinks": [],
+      "buyLinks": [
+        {
+          "label": "Nike SNKRS",
+          "url": "https://www.nike.com/launch"
+        }
+      ],
       "shipping": 15
     },
     {
@@ -483,14 +488,14 @@
       "category": "Sneakers",
       "collab": "Travis Scott / Rockstar Games",
       "confidence": "medium",
-      "estResale": 260,
+      "estResale": 280,
       "firstSeen": "2026-11-18",
       "hype": 5,
       "method": "SNKRS",
       "name": "Air Force 1 Low \"GTA 6\" Pack",
-      "notes": "Drops the same day as GTA 6. One Friends & Family colorway stays exclusive. Nike and Rockstar have not officially confirmed it, so treat the date as likely, not certain.",
+      "notes": "Pack reported for Nov 19 via Nike and select retailers; StockX and Sneakers Cartel list the White/Fire Pink pair for Nov 21 on SNKRS and Nov 23 on Travis Scott's site. A 600-pair Friends & Family colorway stays exclusive.",
       "releaseDate": "2026-11-19",
-      "resaleNote": "StockX shows highest bids of $332 (Multi-Color) and $300 (Black/Fire Pink) with no completed sales yet; estimate is discounted because this is reported as a large release.",
+      "resaleNote": "StockX highest bids are $300 (Black/Fire Pink), $350 (White/Fire Pink) and $401 (Multi-Color) with no reliable sales yet; estimate is discounted for a large three-colorway run.",
       "retail": 130,
       "sources": [
         {
@@ -512,9 +517,21 @@
         {
           "label": "Resell Calendar",
           "url": "https://resellcalendar.com/news/news/travis-scott-gta-6-sneaker-reseller-nike-af1/"
+        },
+        {
+          "label": "StockX – Black/Fire Pink",
+          "url": "https://stockx.com/nike-air-force-1-low-travis-scott-x-rockstar-games-gta-6-black-fire-pink"
+        },
+        {
+          "label": "StockX – White/Fire Pink",
+          "url": "https://stockx.com/nike-air-force-1-low-travis-scott-x-rockstar-games-gta-6-white-fire-pink"
+        },
+        {
+          "label": "Sneakers Cartel",
+          "url": "https://sneakerscartel.com/travis-scott-x-nike-air-force-1-low-gta-6-white-set-for-november-2026/"
         }
       ],
-      "updated": "2026-11-18T13:38:01Z",
+      "updated": "2026-11-19T13:02:01Z",
       "where": "Nike SNKRS, Cactus Jack",
       "id": "ts-gta6-af1",
       "buyLinks": [
@@ -800,7 +817,7 @@
         }
       ],
       "firstSeen": "2026-11-18",
-      "updated": "2026-11-18T13:38:01Z"
+      "updated": "2026-11-19T13:02:01Z"
     },
     {
       "id": "aj4-bred-2026",
@@ -923,6 +940,49 @@
       ],
       "firstSeen": "2026-11-18",
       "updated": "2026-11-18T13:38:01Z"
+    },
+    {
+      "id": "pokemon-30th-celebration-upc",
+      "name": "Pokémon TCG 30th Celebration Ultra-Premium Collection (Day / Night)",
+      "brand": "Pokémon TCG",
+      "collab": "",
+      "category": "Trading cards",
+      "releaseDate": "",
+      "retail": 179.99,
+      "estResale": 330,
+      "shipping": 10,
+      "confidence": "medium",
+      "hype": 5,
+      "method": "FCFS",
+      "where": "Pokémon Center, GameStop, Best Buy, Walmart, Target, local game stores",
+      "buyLinks": [
+        {
+          "label": "Pokémon Center",
+          "url": "https://www.pokemoncenter.com"
+        },
+        {
+          "label": "GameStop",
+          "url": "https://www.gamestop.com/toys-games/trading-cards/products/pokemon-trading-card-game-30th-celebration-ultra-premium-collection-styles-may-vary/20036364.html"
+        }
+      ],
+      "notes": "Released Nov 6, 2026 at $179.99 per version; restock watch, since retailers are selling in limited random drops (often 1 per order). Quick flip if you land one at list; GameStop's listing shows an odd higher price, so check before buying.",
+      "resaleNote": "TCGplayer showed about $344 (Day) and $371 (Night) as of Nov 16 per a collector-blog report; estimate sits a bit below to allow for restocks.",
+      "sources": [
+        {
+          "label": "Pokémon.com",
+          "url": "https://www.pokemon.com/us/pokemon-tcg/product-gallery/30th-celebration-ultra-premium-collections-day-night"
+        },
+        {
+          "label": "TCG Protectors",
+          "url": "https://tcgprotectors.com/blogs/pokemon-blog/30th-celebration-upc-day-vs-night-contents-and-price"
+        },
+        {
+          "label": "Bill's Archive MSRP",
+          "url": "https://billsarchive.com/articles/30th-anniversary-english-products-msrp.html"
+        }
+      ],
+      "firstSeen": "2026-11-19",
+      "updated": "2026-11-19T13:02:01Z"
     }
   ]
 }

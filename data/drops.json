@@ -1,6 +1,6 @@
 {
-  "lastRun": "2026-11-19T13:02:01Z",
-  "summary": "Best flips: Travis Scott × GTA 6 AF1 (Nov 19, white pair Nov 21 on SNKRS; $130 → ~$280) and Corteiz Shox R419 Metallic Silver (Nov 20, $190 → ~$330). New today: the Pokémon 30th Celebration Ultra-Premium Collection ($179.99, trading ~$340–370) is a restock watch worth grabbing at list. Gran Turismo DualSense (Dec 10) and Kobe AD Protro Laser Orange were checked and skipped as too thin at retail.",
+  "lastRun": "2026-11-20T13:00:00Z",
+  "summary": "Best flips: Travis Scott × GTA 6 AF1 (white pair on SNKRS Nov 21, $130 → ~$380 as early StockX bids hold above $400) and Corteiz Shox R419 Metallic Silver (SNKRS today Nov 20, $190 → ~$330). New: Pokémon 30th Celebration Binder Collection ($31.99, Dec 4, ~$60) is a small multi-unit flip; AJ4 Bred is confirmed for Black Friday Nov 27. The Zelda Switch 2 restock looks pushed to January per Nintendo's store.",
   "drops": [
     {
       "brand": "Jordan",
@@ -64,9 +64,13 @@
         {
           "label": "Sneaker News",
           "url": "https://sneakernews.com/2026/08/20/space-jam-jordan-11/"
+        },
+        {
+          "label": "House of Heat – Jordan release dates",
+          "url": "https://houseofheat.co/jordan-release-dates"
         }
       ],
-      "updated": "2026-11-18T12:00:00Z",
+      "updated": "2026-11-20T13:00:00Z",
       "where": "Nike SNKRS, DICK'S, Foot Locker",
       "id": "aj11-space-jam-2026",
       "buyLinks": [
@@ -245,7 +249,7 @@
       "name": "Shox R419 \"Metallic Silver\"",
       "notes": "Sneaker News lists Nov 20 on SNKRS; other outlets still say Holiday 2026. Retail reported as $180–$190.",
       "releaseDate": "2026-11-20",
-      "resaleNote": "The Game Royal pair shows a StockX ask of $399, last sale $581, highest bid $245. Estimate sits near the bid-ask middle.",
+      "resaleNote": "Pre-release StockX listings around €344 (~$365); $330 assumes some softening after the SNKRS run.",
       "retail": 190,
       "sku": "IQ9951-001",
       "sources": [
@@ -262,7 +266,7 @@
           "url": "https://www.soleretriever.com/news/articles/corteiz-nike-shox-r419-release-date-holiday-2026"
         }
       ],
-      "updated": "2026-11-19T13:02:01Z",
+      "updated": "2026-11-20T13:00:00Z",
       "where": "Nike SNKRS, Corteiz site",
       "id": "corteiz-shox-r419-silver",
       "buyLinks": [
@@ -488,14 +492,14 @@
       "category": "Sneakers",
       "collab": "Travis Scott / Rockstar Games",
       "confidence": "medium",
-      "estResale": 280,
+      "estResale": 380,
       "firstSeen": "2026-11-18",
       "hype": 5,
       "method": "SNKRS",
       "name": "Air Force 1 Low \"GTA 6\" Pack",
       "notes": "Pack reported for Nov 19 via Nike and select retailers; StockX and Sneakers Cartel list the White/Fire Pink pair for Nov 21 on SNKRS and Nov 23 on Travis Scott's site. A 600-pair Friends & Family colorway stays exclusive.",
       "releaseDate": "2026-11-19",
-      "resaleNote": "StockX highest bids are $300 (Black/Fire Pink), $350 (White/Fire Pink) and $401 (Multi-Color) with no reliable sales yet; estimate is discounted for a large three-colorway run.",
+      "resaleNote": "StockX early trading on the white pair is ~$480 ask / $443 top bid and the black pair's top bid is ~$266 with wild last sales; $380 is a blended median after the white SNKRS wave.",
       "retail": 130,
       "sources": [
         {
@@ -531,7 +535,7 @@
           "url": "https://sneakerscartel.com/travis-scott-x-nike-air-force-1-low-gta-6-white-set-for-november-2026/"
         }
       ],
-      "updated": "2026-11-19T13:02:01Z",
+      "updated": "2026-11-20T13:00:00Z",
       "where": "Nike SNKRS, Cactus Jack",
       "id": "ts-gta6-af1",
       "buyLinks": [
@@ -630,7 +634,7 @@
       "hype": 5,
       "method": "FCFS",
       "where": "Nintendo Store, Best Buy, Target, Walmart",
-      "notes": "Sold out at every major US retailer within about four hours of preorders on Sept 8, 2026. No restock date announced; this is a restock watch.",
+      "notes": "Nintendo's US store says the Zelda Edition Switch 2 won't restock until January, so a Black Friday restock is unlikely; some retailers may still release held stock. Long-ish hold.",
       "resaleNote": "Reports put secondary prices near $900, but they come from smaller outlets; the estimate assumes prices soften once restocks land.",
       "sources": [
         {
@@ -640,6 +644,10 @@
         {
           "label": "Tech Insider",
           "url": "https://tech-insider.org/zelda-40th-anniversary-switch-2-sellout-scalpers-2026/"
+        },
+        {
+          "label": "Notebookcheck – no restock until 2027",
+          "url": "https://www.notebookcheck.net/Nintendo-won-t-restock-Zelda-Switch-2-console-until-2027-dashing-Black-Friday-hopes.1454976.0.html"
         }
       ],
       "buyLinks": [
@@ -661,7 +669,7 @@
         }
       ],
       "firstSeen": "2026-11-18",
-      "updated": "2026-11-18T13:38:01Z"
+      "updated": "2026-11-20T13:00:00Z"
     },
     {
       "id": "lego-city-tower",
@@ -804,6 +812,10 @@
         {
           "label": "PokeInvesting",
           "url": "https://pokeinvesting.com/sealed/unova-heavy-hitters-premium-collection"
+        },
+        {
+          "label": "PokeInsider release calendar",
+          "url": "https://pokeinsider.com/pokemon-release-calendar/"
         }
       ],
       "buyLinks": [
@@ -817,7 +829,7 @@
         }
       ],
       "firstSeen": "2026-11-18",
-      "updated": "2026-11-19T13:02:01Z"
+      "updated": "2026-11-20T13:00:00Z"
     },
     {
       "id": "aj4-bred-2026",
@@ -865,7 +877,7 @@
         }
       ],
       "firstSeen": "2026-11-18",
-      "updated": "2026-11-18T13:38:01Z"
+      "updated": "2026-11-20T13:00:00Z"
     },
     {
       "id": "supreme-dickies-fw26",
@@ -983,6 +995,45 @@
       ],
       "firstSeen": "2026-11-19",
       "updated": "2026-11-19T13:02:01Z"
+    },
+    {
+      "id": "pokemon-30th-celebration-binder",
+      "name": "Pokémon TCG 30th Celebration Binder Collection",
+      "brand": "The Pokémon Company",
+      "collab": "",
+      "category": "Trading cards",
+      "releaseDate": "2026-12-04",
+      "retail": 31.99,
+      "estResale": 60,
+      "shipping": 8,
+      "confidence": "low",
+      "hype": 3,
+      "method": "FCFS",
+      "where": "GameStop (in-store), Best Buy, Target, Pokémon Center and hobby shops",
+      "buyLinks": [
+        {
+          "label": "Best Buy",
+          "url": "https://www.bestbuy.com/product/pokemon-trading-card-game-30th-celebration-binder-collection/JJG2TL8245"
+        },
+        {
+          "label": "GameStop",
+          "url": "https://www.gamestop.com/toys-games/trading-cards/products/pokemon-trading-card-game-30th-celebration-binder-collection/20036370.html"
+        }
+      ],
+      "notes": "ICv2 lists Dec 4 while GameStop and Best Buy listed Oct 2, so the date is uncertain. Five 30th Celebration packs plus a binder at $31.99; a small quick flip, better in multiples.",
+      "resaleNote": "TCGplayer's buyer's guide had it at ~$74 in early September (pre-release); $60 assumes heavy discounting once wide retail stock lands.",
+      "sources": [
+        {
+          "label": "ICv2",
+          "url": "https://icv2.com/articles/news/view/63260/new-pokemon-tcg-30th-celebration-products-announced"
+        },
+        {
+          "label": "TCGplayer buyer's guide",
+          "url": "https://www.tcgplayer.com/content/article/Buyer-s-Guide-to-Pok%C3%A9mon-TCG-30th-Celebration/0d9be702-6afe-467a-9aeb-d531592d9889/"
+        }
+      ],
+      "firstSeen": "2026-11-20",
+      "updated": "2026-11-20T13:00:00Z"
     }
   ]
 }

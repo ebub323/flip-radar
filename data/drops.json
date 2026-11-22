@@ -1,6 +1,6 @@
 {
-  "lastRun": "2026-11-20T13:00:00Z",
-  "summary": "Best flips: Travis Scott × GTA 6 AF1 (white pair on SNKRS Nov 21, $130 → ~$380 as early StockX bids hold above $400) and Corteiz Shox R419 Metallic Silver (SNKRS today Nov 20, $190 → ~$330). New: Pokémon 30th Celebration Binder Collection ($31.99, Dec 4, ~$60) is a small multi-unit flip; AJ4 Bred is confirmed for Black Friday Nov 27. The Zelda Switch 2 restock looks pushed to January per Nintendo's store.",
+  "lastRun": "2026-11-22T13:00:00Z",
+  "summary": "Best flips: Travis Scott × GTA 6 AF1 (released Nov 19–21, $130 → ~$380 on StockX), Air Jordan 4 \"BIN 23\" (new, Dec 26, ~2,300 numbered pairs, $355 → ~$550) and the Pokémon 30th Celebration UPC ($179.99 → ~$330, restock watch). Corteiz Shox R419 Silver cooled after release ($190 → ~$260, no longer a clear cop), and the KD 6 Aunt Pearl Nov 28 date is unconfirmed. Free The Youth AJ3 added for Dec 11; the Zelda Switch 2 restock is still January.",
   "drops": [
     {
       "brand": "Jordan",
@@ -22,7 +22,7 @@
           "url": "https://houseofheat.co/jordan/air-jordan-retros-returning-2026"
         }
       ],
-      "updated": "2026-11-18T12:00:00Z",
+      "updated": "2026-11-22T13:00:00Z",
       "where": "Nike SNKRS, retailers",
       "id": "aj10-sacramento",
       "buyLinks": [
@@ -49,7 +49,7 @@
       "name": "Air Jordan 11 \"Space Jam\" (2026)",
       "notes": "30th anniversary holiday 11 with full family sizing, so supply is huge. Pre-release StockX ask is $599 / last $800, but those numbers usually fall hard after release day.",
       "releaseDate": "2026-12-12",
-      "resaleNote": "The Space Jam 9 from September is trading under retail. Holiday 11s typically settle $60–$120 over retail in core sizes.",
+      "resaleNote": "StockX shows a $349 last sale and ~$395 3-month average on pre-release trading; holiday 11s with full family sizing usually settle $60–$120 over retail, so $320.",
       "retail": 235,
       "sku": "CT8012-900",
       "sources": [
@@ -70,7 +70,7 @@
           "url": "https://houseofheat.co/jordan-release-dates"
         }
       ],
-      "updated": "2026-11-20T13:00:00Z",
+      "updated": "2026-11-22T13:00:00Z",
       "where": "Nike SNKRS, DICK'S, Foot Locker",
       "id": "aj11-space-jam-2026",
       "buyLinks": [
@@ -242,17 +242,21 @@
       "category": "Sneakers",
       "collab": "Corteiz",
       "confidence": "medium",
-      "estResale": 330,
+      "estResale": 260,
       "firstSeen": "2026-11-18",
       "hype": 5,
       "method": "SNKRS",
       "name": "Shox R419 \"Metallic Silver\"",
-      "notes": "Sneaker News lists Nov 20 on SNKRS; other outlets still say Holiday 2026. Retail reported as $180–$190.",
+      "notes": "Released Nov 15 on Corteiz (sold out in ~70 min per a fan site) and Nov 20 on SNKRS. Quick flip if you hit; Corteiz's site doesn't ship to the US, which props up US resale.",
       "releaseDate": "2026-11-20",
-      "resaleNote": "Pre-release StockX listings around €344 (~$365); $330 assumes some softening after the SNKRS run.",
+      "resaleNote": "Post-release StockX shows asks around $277–$300 but a $190 last sale and ~$209 top bid, so $260 is a cautious median.",
       "retail": 190,
       "sku": "IQ9951-001",
       "sources": [
+        {
+          "label": "StockX – Metallic Silver",
+          "url": "https://stockx.com/nike-shox-r419-corteiz-metallic-silver"
+        },
         {
           "label": "Sneaker News",
           "url": "https://sneakernews.com/2026/11/09/corteiz-nike-shox-r419-metallic-silver-iq9951-001/"
@@ -264,9 +268,13 @@
         {
           "label": "Sole Retriever",
           "url": "https://www.soleretriever.com/news/articles/corteiz-nike-shox-r419-release-date-holiday-2026"
+        },
+        {
+          "label": "Corteiz Community (fan site)",
+          "url": "https://corteizcommunity.com/news/corteiz-nike-shox-r419-silver-surfer-release-date/"
         }
       ],
-      "updated": "2026-11-20T13:00:00Z",
+      "updated": "2026-11-22T13:00:00Z",
       "where": "Nike SNKRS, Corteiz site",
       "id": "corteiz-shox-r419-silver",
       "buyLinks": [
@@ -316,13 +324,13 @@
       "brand": "Nike",
       "category": "Sneakers",
       "collab": "",
-      "confidence": "medium",
+      "confidence": "low",
       "estResale": 265,
       "firstSeen": "2026-11-18",
       "hype": 4,
       "method": "SNKRS",
       "name": "KD 6 \"Aunt Pearl\"",
-      "notes": "Kay Yow / breast cancer awareness retro; historically one of the strongest KD resellers.",
+      "notes": "Kay Yow / breast cancer awareness retro. House of Heat listed Nov 28, but Sole Retriever and Complex still say Holiday 2026 with no confirmed date or price.",
       "releaseDate": "2026-11-28",
       "resaleNote": "Previous Aunt Pearl retros traded well above retail; tempered for larger modern runs.",
       "retail": 190,
@@ -330,9 +338,17 @@
         {
           "label": "House of Heat – November",
           "url": "https://houseofheat.co/upcoming-sneaker-releases-november-2026"
+        },
+        {
+          "label": "Sole Retriever",
+          "url": "https://www.soleretriever.com/news/articles/nike-kd-6-aunt-pearl-retro-release-date-holiday-2026"
+        },
+        {
+          "label": "Sneaker Files",
+          "url": "https://www.sneakerfiles.com/nike-kd-6-aunt-pearl-2026"
         }
       ],
-      "updated": "2026-11-18T12:00:00Z",
+      "updated": "2026-11-22T13:00:00Z",
       "where": "Nike SNKRS",
       "id": "kd6-aunt-pearl",
       "buyLinks": [
@@ -499,7 +515,7 @@
       "name": "Air Force 1 Low \"GTA 6\" Pack",
       "notes": "Pack reported for Nov 19 via Nike and select retailers; StockX and Sneakers Cartel list the White/Fire Pink pair for Nov 21 on SNKRS and Nov 23 on Travis Scott's site. A 600-pair Friends & Family colorway stays exclusive.",
       "releaseDate": "2026-11-19",
-      "resaleNote": "StockX early trading on the white pair is ~$480 ask / $443 top bid and the black pair's top bid is ~$266 with wild last sales; $380 is a blended median after the white SNKRS wave.",
+      "resaleNote": "StockX shows the black pair with ~$279–$389 sales in the last 3 days and a $401 top bid on the multicolor; a $1,499 white-pair sale looks like an outlier, so $380 stays as a blended median.",
       "retail": 130,
       "sources": [
         {
@@ -535,7 +551,7 @@
           "url": "https://sneakerscartel.com/travis-scott-x-nike-air-force-1-low-gta-6-white-set-for-november-2026/"
         }
       ],
-      "updated": "2026-11-20T13:00:00Z",
+      "updated": "2026-11-22T13:00:00Z",
       "where": "Nike SNKRS, Cactus Jack",
       "id": "ts-gta6-af1",
       "buyLinks": [
@@ -648,6 +664,10 @@
         {
           "label": "Notebookcheck – no restock until 2027",
           "url": "https://www.notebookcheck.net/Nintendo-won-t-restock-Zelda-Switch-2-console-until-2027-dashing-Black-Friday-hopes.1454976.0.html"
+        },
+        {
+          "label": "The Shortcut restock tracker",
+          "url": "https://www.theshortcut.com/p/zelda-switch-2-restock-tracker"
         }
       ],
       "buyLinks": [
@@ -669,7 +689,7 @@
         }
       ],
       "firstSeen": "2026-11-18",
-      "updated": "2026-11-20T13:00:00Z"
+      "updated": "2026-11-22T13:00:00Z"
     },
     {
       "id": "lego-city-tower",
@@ -829,7 +849,7 @@
         }
       ],
       "firstSeen": "2026-11-18",
-      "updated": "2026-11-20T13:00:00Z"
+      "updated": "2026-11-22T13:00:00Z"
     },
     {
       "id": "aj4-bred-2026",
@@ -1033,7 +1053,87 @@
         }
       ],
       "firstSeen": "2026-11-20",
-      "updated": "2026-11-20T13:00:00Z"
+      "updated": "2026-11-22T13:00:00Z"
+    },
+    {
+      "id": "aj4-bin23-2026",
+      "name": "Air Jordan 4 PRM \"BIN 23\"",
+      "brand": "Jordan",
+      "collab": "",
+      "sku": "JA3588-200",
+      "category": "Sneakers",
+      "releaseDate": "2026-12-26",
+      "retail": 355,
+      "estResale": 550,
+      "shipping": 15,
+      "confidence": "low",
+      "hype": 4,
+      "method": "SNKRS",
+      "where": "Nike SNKRS and select Jordan retailers",
+      "buyLinks": [
+        {
+          "label": "Nike SNKRS",
+          "url": "https://www.nike.com/launch"
+        }
+      ],
+      "notes": "Reported for Dec 26 at $355 with about 2,300 individually numbered pairs; Jordan Brand hasn't officially confirmed. Very small run, so a hit is a strong quick flip.",
+      "resaleNote": "Based on the tiny reported run and how past BIN 23 numbered releases traded far over retail; no live StockX market yet.",
+      "sources": [
+        {
+          "label": "Sneaker Bar Detroit",
+          "url": "https://sneakerbardetroit.com/air-jordan-4-bin-23/"
+        },
+        {
+          "label": "Complex",
+          "url": "https://www.complex.com/sneakers/a/victor-deng/bin-23-air-jordan-4-everything-you-need-to-know"
+        },
+        {
+          "label": "Sneaker Files",
+          "url": "https://www.sneakerfiles.com/air-jordan-4-bin-23/"
+        }
+      ],
+      "firstSeen": "2026-11-22",
+      "updated": "2026-11-22T13:00:00Z"
+    },
+    {
+      "id": "fty-aj3-2026",
+      "name": "Air Jordan 3 \"Free The Youth\"",
+      "brand": "Jordan",
+      "collab": "Free The Youth",
+      "sku": "IU0737-001",
+      "category": "Sneakers",
+      "releaseDate": "2026-12-11",
+      "retail": 225,
+      "estResale": 300,
+      "shipping": 15,
+      "confidence": "low",
+      "hype": 4,
+      "method": "SNKRS",
+      "where": "Free The Youth (Dec 4 first drop), then Nike SNKRS and Jordan NBHD retailers Dec 11",
+      "buyLinks": [
+        {
+          "label": "Nike SNKRS",
+          "url": "https://www.nike.com/launch"
+        }
+      ],
+      "notes": "Ghana-based collective's first Jordan; first drop Dec 4 via Free The Youth/EMEA, wider SNKRS release Dec 11. Price still TBA (~$225 expected); thin margin unless supply is small.",
+      "resaleNote": "Estimate based on recent collab AJ3s settling roughly $50–$100 over retail; no live market yet.",
+      "sources": [
+        {
+          "label": "House of Heat",
+          "url": "https://houseofheat.co/jordan/free-the-youth-air-jordan-3-pink-prime-jade-iu0737-001"
+        },
+        {
+          "label": "Sneaker Freaker",
+          "url": "https://www.sneakerfreaker.com/releases/free-the-youth-air-jordan-3-2026-IU0737-001-price-buy-release-date"
+        },
+        {
+          "label": "Sneaker Bar Detroit",
+          "url": "https://sneakerbardetroit.com/free-the-youth-air-jordan-3/"
+        }
+      ],
+      "firstSeen": "2026-11-22",
+      "updated": "2026-11-22T13:00:00Z"
     }
   ]
 }

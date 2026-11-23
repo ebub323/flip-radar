@@ -1,6 +1,6 @@
 {
-  "lastRun": "2026-11-22T13:00:00Z",
-  "summary": "Best flips: Travis Scott × GTA 6 AF1 (released Nov 19–21, $130 → ~$380 on StockX), Air Jordan 4 \"BIN 23\" (new, Dec 26, ~2,300 numbered pairs, $355 → ~$550) and the Pokémon 30th Celebration UPC ($179.99 → ~$330, restock watch). Corteiz Shox R419 Silver cooled after release ($190 → ~$260, no longer a clear cop), and the KD 6 Aunt Pearl Nov 28 date is unconfirmed. Free The Youth AJ3 added for Dec 11; the Zelda Switch 2 restock is still January.",
+  "lastRun": "2026-11-23T13:01:36Z",
+  "summary": "Best flips: Travis Scott × GTA 6 AF1 (released Nov 19–21, $130 → ~$330; StockX asks have cooled to ~$280–$300), Air Jordan 4 \"BIN 23\" (Dec 26, $355 → ~$550) and the Pokémon 30th Celebration UPC ($179.99 → ~$330, restock watch). AJ11 Space Jam (Dec 12) trimmed to ~$290 — a huge GR, so it's not a cop; the AJ4 Bred still drops Black Friday (Nov 27). New: Gran Turismo 30th DualSense (Dec 10, $84.99), a low-confidence watch only if it sells out.",
   "drops": [
     {
       "brand": "Jordan",
@@ -22,7 +22,7 @@
           "url": "https://houseofheat.co/jordan/air-jordan-retros-returning-2026"
         }
       ],
-      "updated": "2026-11-22T13:00:00Z",
+      "updated": "2026-11-23T13:01:36Z",
       "where": "Nike SNKRS, retailers",
       "id": "aj10-sacramento",
       "buyLinks": [
@@ -42,14 +42,14 @@
       "category": "Sneakers",
       "collab": "",
       "confidence": "medium",
-      "estResale": 320,
+      "estResale": 290,
       "firstSeen": "2026-11-18",
       "hype": 4,
       "method": "SNKRS",
       "name": "Air Jordan 11 \"Space Jam\" (2026)",
-      "notes": "30th anniversary holiday 11 with full family sizing, so supply is huge. Pre-release StockX ask is $599 / last $800, but those numbers usually fall hard after release day.",
+      "notes": "Dec 12 date and $235 retail agree across most trackers (Complex lists $255). Full family-size general release with very large supply, so margins after fees are thin.",
       "releaseDate": "2026-12-12",
-      "resaleNote": "StockX shows a $349 last sale and ~$395 3-month average on pre-release trading; holiday 11s with full family sizing usually settle $60–$120 over retail, so $320.",
+      "resaleNote": "Pre-release StockX asks around $329; big holiday GR runs usually settle below early asks, so estimate is discounted.",
       "retail": 235,
       "sku": "CT8012-900",
       "sources": [
@@ -68,9 +68,13 @@
         {
           "label": "House of Heat – Jordan release dates",
           "url": "https://houseofheat.co/jordan-release-dates"
+        },
+        {
+          "label": "Nice Kicks",
+          "url": "https://www.nicekicks.com/shoes/air-jordan-11-space-jam-ct8012-900/"
         }
       ],
-      "updated": "2026-11-22T13:00:00Z",
+      "updated": "2026-11-23T13:01:36Z",
       "where": "Nike SNKRS, DICK'S, Foot Locker",
       "id": "aj11-space-jam-2026",
       "buyLinks": [
@@ -222,7 +226,7 @@
           "url": "https://www.stadiumgoods.com/products/shox-r419-corteiz-black-247764"
         }
       ],
-      "updated": "2026-11-18T12:00:00Z",
+      "updated": "2026-11-23T13:01:36Z",
       "where": "Nike SNKRS, Corteiz site",
       "id": "corteiz-shox-r419-black",
       "buyLinks": [
@@ -274,7 +278,7 @@
           "url": "https://corteizcommunity.com/news/corteiz-nike-shox-r419-silver-surfer-release-date/"
         }
       ],
-      "updated": "2026-11-22T13:00:00Z",
+      "updated": "2026-11-23T13:01:36Z",
       "where": "Nike SNKRS, Corteiz site",
       "id": "corteiz-shox-r419-silver",
       "buyLinks": [
@@ -508,14 +512,14 @@
       "category": "Sneakers",
       "collab": "Travis Scott / Rockstar Games",
       "confidence": "medium",
-      "estResale": 380,
+      "estResale": 330,
       "firstSeen": "2026-11-18",
       "hype": 5,
       "method": "SNKRS",
       "name": "Air Force 1 Low \"GTA 6\" Pack",
       "notes": "Pack reported for Nov 19 via Nike and select retailers; StockX and Sneakers Cartel list the White/Fire Pink pair for Nov 21 on SNKRS and Nov 23 on Travis Scott's site. A 600-pair Friends & Family colorway stays exclusive.",
       "releaseDate": "2026-11-19",
-      "resaleNote": "StockX shows the black pair with ~$279–$389 sales in the last 3 days and a $401 top bid on the multicolor; a $1,499 white-pair sale looks like an outlier, so $380 stays as a blended median.",
+      "resaleNote": "StockX asks for the white and black pairs sit around $280–$300 on the brand page, while Resell Calendar reported ~$500 trades right after release; estimate splits the difference toward current asks.",
       "retail": 130,
       "sources": [
         {
@@ -549,9 +553,13 @@
         {
           "label": "Sneakers Cartel",
           "url": "https://sneakerscartel.com/travis-scott-x-nike-air-force-1-low-gta-6-white-set-for-november-2026/"
+        },
+        {
+          "label": "Resell Calendar",
+          "url": "https://resellcalendar.com/news/news/travis-scott-gta-6-sneaker-air-force-1-drop-details/"
         }
       ],
-      "updated": "2026-11-22T13:00:00Z",
+      "updated": "2026-11-23T13:01:36Z",
       "where": "Nike SNKRS, Cactus Jack",
       "id": "ts-gta6-af1",
       "buyLinks": [
@@ -836,6 +844,10 @@
         {
           "label": "PokeInsider release calendar",
           "url": "https://pokeinsider.com/pokemon-release-calendar/"
+        },
+        {
+          "label": "Celadon release calendar",
+          "url": "https://celadoninfo.com/us/releases"
         }
       ],
       "buyLinks": [
@@ -849,7 +861,7 @@
         }
       ],
       "firstSeen": "2026-11-18",
-      "updated": "2026-11-22T13:00:00Z"
+      "updated": "2026-11-23T13:01:36Z"
     },
     {
       "id": "aj4-bred-2026",
@@ -894,10 +906,14 @@
         {
           "label": "Complex",
           "url": "https://www.complex.com/sneakers/a/victor-deng/air-jordan-4-retro-bred-2026-release-date"
+        },
+        {
+          "label": "Men's Journal",
+          "url": "https://www.mensjournal.com/style/air-jordan-4-bred-2026-release-date-where-to-buy"
         }
       ],
       "firstSeen": "2026-11-18",
-      "updated": "2026-11-20T13:00:00Z"
+      "updated": "2026-11-23T13:01:36Z"
     },
     {
       "id": "supreme-dickies-fw26",
@@ -1050,10 +1066,14 @@
         {
           "label": "TCGplayer buyer's guide",
           "url": "https://www.tcgplayer.com/content/article/Buyer-s-Guide-to-Pok%C3%A9mon-TCG-30th-Celebration/0d9be702-6afe-467a-9aeb-d531592d9889/"
+        },
+        {
+          "label": "Celadon release calendar",
+          "url": "https://celadoninfo.com/us/releases"
         }
       ],
       "firstSeen": "2026-11-20",
-      "updated": "2026-11-22T13:00:00Z"
+      "updated": "2026-11-23T13:01:36Z"
     },
     {
       "id": "aj4-bin23-2026",
@@ -1093,7 +1113,7 @@
         }
       ],
       "firstSeen": "2026-11-22",
-      "updated": "2026-11-22T13:00:00Z"
+      "updated": "2026-11-23T13:01:36Z"
     },
     {
       "id": "fty-aj3-2026",
@@ -1134,6 +1154,50 @@
       ],
       "firstSeen": "2026-11-22",
       "updated": "2026-11-22T13:00:00Z"
+    },
+    {
+      "id": "gt-30th-dualsense",
+      "name": "DualSense Wireless Controller – Gran Turismo 30th Anniversary Limited Edition",
+      "brand": "Sony PlayStation",
+      "collab": "Gran Turismo",
+      "sku": "",
+      "category": "Tech",
+      "releaseDate": "2026-12-10",
+      "retail": 84.99,
+      "estResale": 110,
+      "shipping": 12,
+      "confidence": "low",
+      "hype": 2,
+      "method": "FCFS",
+      "where": "PlayStation Direct (pre-orders opened Oct 22, limited quantities) and select retailers",
+      "buyLinks": [
+        {
+          "label": "PlayStation Direct",
+          "url": "https://direct.playstation.com/en-us/"
+        },
+        {
+          "label": "PlayStation – GT Limited Edition page",
+          "url": "https://www.playstation.com/en-gb/accessories/dualsense-wireless-controller/buy-now/product/gran-turismo-limited-edition/"
+        }
+      ],
+      "notes": "Releases Dec 10 at $84.99 in limited quantities; no sell-out reports found yet. Only worth it if pre-orders sell out — otherwise skip.",
+      "resaleNote": "No resale data yet; based on the GTA 6 DualSense comp ($130–$150 on eBay) discounted for much lower hype.",
+      "sources": [
+        {
+          "label": "PlayStation LifeStyle",
+          "url": "https://www.playstationlifestyle.net/2026/10/14/gran-turismo-7-ps5-dualsense-controller-price-release-date"
+        },
+        {
+          "label": "Gematsu",
+          "url": "https://www.gematsu.com/2026/10/gran-turismo-limited-edition-dualsense-controller-announced"
+        },
+        {
+          "label": "Resell Calendar – GTA 6 DualSense comp",
+          "url": "https://resellcalendar.com/news/news/gta-6-controller-playstation-dualsense-reseller-sold-out/"
+        }
+      ],
+      "firstSeen": "2026-11-23",
+      "updated": "2026-11-23T13:01:36Z"
     }
   ]
 }

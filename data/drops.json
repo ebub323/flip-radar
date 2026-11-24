@@ -1,6 +1,6 @@
 {
-  "lastRun": "2026-11-23T13:01:36Z",
-  "summary": "Best flips: Travis Scott × GTA 6 AF1 (released Nov 19–21, $130 → ~$330; StockX asks have cooled to ~$280–$300), Air Jordan 4 \"BIN 23\" (Dec 26, $355 → ~$550) and the Pokémon 30th Celebration UPC ($179.99 → ~$330, restock watch). AJ11 Space Jam (Dec 12) trimmed to ~$290 — a huge GR, so it's not a cop; the AJ4 Bred still drops Black Friday (Nov 27). New: Gran Turismo 30th DualSense (Dec 10, $84.99), a low-confidence watch only if it sells out.",
+  "lastRun": "2026-11-24T17:18:42Z",
+  "summary": "Best flips: Air Jordan 4 \"BIN 23\" (Dec 26, $355 → ~$550), the Travis Scott × GTA 6 AF1 (released Nov 19–21, $130 → ~$330) and the Pokémon 30th Celebration UPC ($179.99 → ~$330, restock watch). New: Xbox Series X25 restock watch ($899.99 → ~$1,450, low confidence, no restock announced) and AJ4 \"Pink Thunder\" (Dec 19, $220, a thin flip). AJ4 Bred still drops Black Friday (Nov 27); StockX pre-release asks are ~$399 but expect it to settle near $285, which is not a cop.",
   "drops": [
     {
       "brand": "Jordan",
@@ -22,7 +22,7 @@
           "url": "https://houseofheat.co/jordan/air-jordan-retros-returning-2026"
         }
       ],
-      "updated": "2026-11-23T13:01:36Z",
+      "updated": "2026-11-24T17:18:42Z",
       "where": "Nike SNKRS, retailers",
       "id": "aj10-sacramento",
       "buyLinks": [
@@ -74,7 +74,7 @@
           "url": "https://www.nicekicks.com/shoes/air-jordan-11-space-jam-ct8012-900/"
         }
       ],
-      "updated": "2026-11-23T13:01:36Z",
+      "updated": "2026-11-24T17:18:42Z",
       "where": "Nike SNKRS, DICK'S, Foot Locker",
       "id": "aj11-space-jam-2026",
       "buyLinks": [
@@ -861,7 +861,7 @@
         }
       ],
       "firstSeen": "2026-11-18",
-      "updated": "2026-11-23T13:01:36Z"
+      "updated": "2026-11-24T17:18:42Z"
     },
     {
       "id": "aj4-bred-2026",
@@ -872,7 +872,7 @@
       "category": "Sneakers",
       "releaseDate": "2026-11-27",
       "retail": 230,
-      "estResale": 270,
+      "estResale": 285,
       "shipping": 15,
       "confidence": "medium",
       "hype": 5,
@@ -897,7 +897,7 @@
         }
       ],
       "notes": "Black Friday drop on Nov 27 with the OG nubuck upper. Expected to be a wide general release, so it's a big name but a thin flip.",
-      "resaleNote": "Based on the 2024 Bred Reimagined, which traded near retail after its large run; one source lists $220 retail instead of $230.",
+      "resaleNote": "StockX pre-release asks sit near $399 (last sale ~$439, top bid ~$350), but those are thin pre-release numbers; the estimate assumes a big GR run pulls it down toward the 2024 Reimagined's near-retail trading.",
       "sources": [
         {
           "label": "Sneaker News",
@@ -910,10 +910,14 @@
         {
           "label": "Men's Journal",
           "url": "https://www.mensjournal.com/style/air-jordan-4-bred-2026-release-date-where-to-buy"
+        },
+        {
+          "label": "StockX",
+          "url": "https://stockx.com/air-jordan-4-retro-og-bred-2026"
         }
       ],
       "firstSeen": "2026-11-18",
-      "updated": "2026-11-23T13:01:36Z"
+      "updated": "2026-11-24T17:18:42Z"
     },
     {
       "id": "supreme-dickies-fw26",
@@ -1073,7 +1077,7 @@
         }
       ],
       "firstSeen": "2026-11-20",
-      "updated": "2026-11-23T13:01:36Z"
+      "updated": "2026-11-24T17:18:42Z"
     },
     {
       "id": "aj4-bin23-2026",
@@ -1110,10 +1114,14 @@
         {
           "label": "Sneaker Files",
           "url": "https://www.sneakerfiles.com/air-jordan-4-bin-23/"
+        },
+        {
+          "label": "Sneakers Cartel calendar",
+          "url": "https://sneakerscartel.com/air-jordan-release-dates-2026-and-early-2027-calendar/"
         }
       ],
       "firstSeen": "2026-11-22",
-      "updated": "2026-11-23T13:01:36Z"
+      "updated": "2026-11-24T17:18:42Z"
     },
     {
       "id": "fty-aj3-2026",
@@ -1136,7 +1144,7 @@
           "url": "https://www.nike.com/launch"
         }
       ],
-      "notes": "Ghana-based collective's first Jordan; first drop Dec 4 via Free The Youth/EMEA, wider SNKRS release Dec 11. Price still TBA (~$225 expected); thin margin unless supply is small.",
+      "notes": "Ghana-based collective's first Jordan; Free The Youth drops it Dec 4, wider SNKRS/NBHD release Dec 11 (Sneaker Bar Detroit). Price still TBA (~$225 expected); thin margin unless supply is small.",
       "resaleNote": "Estimate based on recent collab AJ3s settling roughly $50–$100 over retail; no live market yet.",
       "sources": [
         {
@@ -1153,7 +1161,7 @@
         }
       ],
       "firstSeen": "2026-11-22",
-      "updated": "2026-11-22T13:00:00Z"
+      "updated": "2026-11-24T17:18:42Z"
     },
     {
       "id": "gt-30th-dualsense",
@@ -1198,6 +1206,97 @@
       ],
       "firstSeen": "2026-11-23",
       "updated": "2026-11-23T13:01:36Z"
+    },
+    {
+      "id": "xbox-series-x25",
+      "name": "Xbox Series X25 Limited Edition (25th Anniversary)",
+      "brand": "Xbox",
+      "collab": "",
+      "category": "Tech",
+      "releaseDate": "",
+      "retail": 899.99,
+      "estResale": 1450,
+      "shipping": 40,
+      "confidence": "low",
+      "hype": 5,
+      "method": "FCFS",
+      "where": "Microsoft Store and participating retailers (limit 1 per customer), restocks only",
+      "buyLinks": [
+        {
+          "label": "Microsoft Store – Xbox",
+          "url": "https://www.xbox.com/en-US/consoles"
+        },
+        {
+          "label": "Best Buy",
+          "url": "https://www.bestbuy.com"
+        }
+      ],
+      "notes": "Individually numbered console + X25 controller; launched Nov 13 and sold out in minutes, with a limited launch-day restock. No further restock is announced, so this is only a buy if more stock appears; numbered units should hold value long-term.",
+      "resaleNote": "Early eBay asks ran $2,000–$2,500 (Gizmodo, Resell Calendar), but those are asks during the sell-out; the estimate discounts heavily for completed sales and any future restock.",
+      "sources": [
+        {
+          "label": "Gizmodo",
+          "url": "https://gizmodo.com/scalpers-ate-the-special-edition-xbox-series-x25-alive-2000804065"
+        },
+        {
+          "label": "Resell Calendar",
+          "url": "https://resellcalendar.com/news/news/xbox-25th-anniversary-console-series-x-reseller-scalper/"
+        },
+        {
+          "label": "Windows Central",
+          "url": "https://windowscentral.com/gaming/xbox/so-much-for-fans-as-xbox-series-x25-sells-out-in-seconds-with-a-good-chunk-going-to-horrible-scalpers"
+        },
+        {
+          "label": "The Shortcut restock",
+          "url": "https://www.theshortcut.com/p/xbox-series-x25-limited-edition-restock"
+        }
+      ],
+      "firstSeen": "2026-11-24",
+      "updated": "2026-11-24T17:18:42Z"
+    },
+    {
+      "id": "aj4-pink-thunder",
+      "name": "Air Jordan 4 Retro \"Rust Pink Thunder\" (Women's)",
+      "brand": "Jordan",
+      "collab": "",
+      "sku": "HV0823-001",
+      "category": "Sneakers",
+      "releaseDate": "2026-12-19",
+      "retail": 220,
+      "estResale": 260,
+      "shipping": 15,
+      "confidence": "low",
+      "hype": 3,
+      "method": "SNKRS",
+      "where": "Nike SNKRS, Foot Locker, JD Sports, Finish Line (women's adult sizes plus GS/PS)",
+      "buyLinks": [
+        {
+          "label": "Nike SNKRS",
+          "url": "https://www.nike.com/launch"
+        },
+        {
+          "label": "Foot Locker",
+          "url": "https://www.footlocker.com"
+        },
+        {
+          "label": "JD Sports",
+          "url": "https://www.jdsports.com"
+        }
+      ],
+      "notes": "Confirmed for Dec 19 at $220 in women's-exclusive sizing (Sneaker News lists $215). Wide Jordan holiday release, so a watch rather than a cop.",
+      "resaleNote": "Based on earlier Thunder AJ4s and women's-exclusive AJ4s settling modestly above retail; no live market yet.",
+      "sources": [
+        {
+          "label": "Sneaker News",
+          "url": "https://sneakernews.com/2026/11/19/pink-thunder-jordan-4s/"
+        },
+        {
+          "label": "HotNewHipHop",
+          "url": "https://www.hotnewhiphop.com/1006812-air-jordan-4-pink-thunder-sneaker-news-3"
+        }
+      ],
+      "firstSeen": "2026-11-24",
+      "updated": "2026-11-24T17:18:42Z"
     }
   ]
 }

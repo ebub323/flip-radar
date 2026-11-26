@@ -1,6 +1,6 @@
 {
-  "lastRun": "2026-11-25T13:25:02Z",
-  "summary": "Best flips: Travis Scott × GTA 6 AF1 (released Nov 19–21, $130 → ~$330), Air Jordan 4 \"BIN 23\" (Dec 26, $355 → ~$550) and the Pokémon 30th Celebration UPC restock watch ($179.99 → ~$300, prices sliding as restocks land). New today: Kobe 10 Protro \"Duke\" PE (~Dec 10), JAIDE × AJ1 Low (Dec 11) and AJ8 \"Knicks\" (Dec 24), all thin flips. AJ4 Bred drops Black Friday (Nov 27) but should settle near $285, not a cop; AJ11 Space Jam (Dec 12) has $599 pre-release asks that likely won't hold.",
+  "lastRun": "2026-11-26T13:49:46Z",
+  "summary": "Best flips: Travis Scott × GTA 6 AF1 (released Nov 19–21, $130 → ~$330), Air Jordan 4 \"BIN 23\" (Dec 26, $355 → ~$550) and the Pokémon 30th Celebration UPC restock watch ($179.99 → ~$300). Black Friday (Nov 27) brings the AJ4 Bred (pre-release StockX avg ~$300, likely settles near $285, not a cop) and Supreme × The North Face Week 15 (thin margin). The Zelda Switch 2 won't restock at the Nintendo Store until January; the Xbox X25 restocked at Best Buy on Nov 25.",
   "drops": [
     {
       "brand": "Jordan",
@@ -20,9 +20,13 @@
         {
           "label": "House of Heat – Jordan 2026",
           "url": "https://houseofheat.co/jordan/air-jordan-retros-returning-2026"
+        },
+        {
+          "label": "WWD: December 2026 Air Jordan calendar",
+          "url": "https://wwd.com/footwear-news/sneaker-news/air-jordan-release-date-calendar-december-2026-1239460421/"
         }
       ],
-      "updated": "2026-11-25T13:25:02Z",
+      "updated": "2026-11-26T13:49:46Z",
       "where": "Nike SNKRS, retailers",
       "id": "aj10-sacramento",
       "buyLinks": [
@@ -72,9 +76,13 @@
         {
           "label": "Nice Kicks",
           "url": "https://www.nicekicks.com/shoes/air-jordan-11-space-jam-ct8012-900/"
+        },
+        {
+          "label": "WWD: December 2026 Air Jordan calendar",
+          "url": "https://wwd.com/footwear-news/sneaker-news/air-jordan-release-date-calendar-december-2026-1239460421/"
         }
       ],
-      "updated": "2026-11-25T13:25:02Z",
+      "updated": "2026-11-26T13:49:46Z",
       "where": "Nike SNKRS, DICK'S, Foot Locker",
       "id": "aj11-space-jam-2026",
       "buyLinks": [
@@ -658,7 +666,7 @@
       "hype": 5,
       "method": "FCFS",
       "where": "Nintendo Store, Best Buy, Target, Walmart",
-      "notes": "Nintendo's US store says the Zelda Edition Switch 2 won't restock until January, so a Black Friday restock is unlikely; some retailers may still release held stock. Long-ish hold.",
+      "notes": "Sold out everywhere; the US Nintendo Store says the limited console won't restock until January 2027, so no Black Friday restock. Watch Nintendo Store, Target, Best Buy and Walmart alerts.",
       "resaleNote": "Reports put secondary prices near $900, but they come from smaller outlets; the estimate assumes prices soften once restocks land.",
       "sources": [
         {
@@ -697,7 +705,7 @@
         }
       ],
       "firstSeen": "2026-11-18",
-      "updated": "2026-11-22T13:00:00Z"
+      "updated": "2026-11-26T13:49:46Z"
     },
     {
       "id": "lego-city-tower",
@@ -865,7 +873,7 @@
         }
       ],
       "firstSeen": "2026-11-18",
-      "updated": "2026-11-25T13:25:02Z"
+      "updated": "2026-11-26T13:49:46Z"
     },
     {
       "id": "aj4-bred-2026",
@@ -901,7 +909,7 @@
         }
       ],
       "notes": "Black Friday drop on Nov 27 (most outlets now agree on the date, $230, IX8180-001) with the OG nubuck upper. Wide general release, so it's a big name but a thin flip.",
-      "resaleNote": "StockX pre-release asks sit near $399 (last sale ~$439, top bid ~$350), but those are thin pre-release numbers; the estimate assumes a big GR run pulls it down toward the 2024 Reimagined's near-retail trading.",
+      "resaleNote": "StockX men's listing shows ~$300 average on pre-release sales (last sale $249, per DraftKings/StockX); big Black Friday run should settle around $285.",
       "sources": [
         {
           "label": "Sneaker News",
@@ -918,10 +926,14 @@
         {
           "label": "StockX",
           "url": "https://stockx.com/air-jordan-4-retro-og-bred-2026"
+        },
+        {
+          "label": "DraftKings: AJ4 Bred release and StockX avg",
+          "url": "https://dknetwork.draftkings.com/2026/11/25/air-jordan-4-og-bred-release-date-price-where-to-buy/"
         }
       ],
       "firstSeen": "2026-11-18",
-      "updated": "2026-11-25T13:25:02Z"
+      "updated": "2026-11-26T13:49:46Z"
     },
     {
       "id": "supreme-dickies-fw26",
@@ -1098,10 +1110,14 @@
         {
           "label": "Celadon release calendar",
           "url": "https://celadoninfo.com/us/releases"
+        },
+        {
+          "label": "PokeInsider release calendar",
+          "url": "https://pokeinsider.com/pokemon-release-calendar/"
         }
       ],
       "firstSeen": "2026-11-20",
-      "updated": "2026-11-24T17:18:42Z"
+      "updated": "2026-11-26T13:49:46Z"
     },
     {
       "id": "aj4-bin23-2026",
@@ -1142,10 +1158,14 @@
         {
           "label": "Sneakers Cartel calendar",
           "url": "https://sneakerscartel.com/air-jordan-release-dates-2026-and-early-2027-calendar/"
+        },
+        {
+          "label": "WWD: December 2026 Air Jordan calendar",
+          "url": "https://wwd.com/footwear-news/sneaker-news/air-jordan-release-date-calendar-december-2026-1239460421/"
         }
       ],
       "firstSeen": "2026-11-22",
-      "updated": "2026-11-25T13:25:02Z"
+      "updated": "2026-11-26T13:49:46Z"
     },
     {
       "id": "fty-aj3-2026",
@@ -1255,7 +1275,7 @@
           "url": "https://www.bestbuy.com"
         }
       ],
-      "notes": "Individually numbered console + X25 controller; launched Nov 13 and sold out in minutes, with a limited launch-day restock. No further restock is announced, so this is only a buy if more stock appears; numbered units should hold value long-term.",
+      "notes": "Restock watch: Best Buy ran a Drops restock on Nov 25 and Amazon is selling invite-only. Each restock softens resale a little.",
       "resaleNote": "Early eBay asks ran $2,000–$2,500 (Gizmodo, Resell Calendar), but those are asks during the sell-out; the estimate discounts heavily for completed sales and any future restock.",
       "sources": [
         {
@@ -1273,10 +1293,18 @@
         {
           "label": "The Shortcut restock",
           "url": "https://www.theshortcut.com/p/xbox-series-x25-limited-edition-restock"
+        },
+        {
+          "label": "The Shortcut: X25 Best Buy restock",
+          "url": "https://www.theshortcut.com/p/xbox-series-x25-limited-edition-restock-best-buy-announces-new-stock-is-on-the-way"
+        },
+        {
+          "label": "Resell Calendar: X25 Amazon invite restock",
+          "url": "https://resellcalendar.com/news/news/sold-out-xbox-25-anniversary-console-restock-amazon-invite-only/"
         }
       ],
       "firstSeen": "2026-11-24",
-      "updated": "2026-11-24T17:18:42Z"
+      "updated": "2026-11-26T13:49:46Z"
     },
     {
       "id": "aj4-pink-thunder",
@@ -1364,7 +1392,7 @@
         }
       ],
       "firstSeen": "2026-11-25",
-      "updated": "2026-11-25T13:25:02Z"
+      "updated": "2026-11-26T13:49:46Z"
     },
     {
       "id": "jaide-aj1-low-og",
@@ -1445,6 +1473,37 @@
       ],
       "firstSeen": "2026-11-25",
       "updated": "2026-11-25T13:25:02Z"
+    },
+    {
+      "id": "supreme-tnf-fw26-week15",
+      "name": "Supreme x The North Face FW26 (Nuptse / Hooded Fleece)",
+      "brand": "Supreme",
+      "collab": "The North Face",
+      "category": "Apparel",
+      "releaseDate": "2026-11-27",
+      "retail": 498,
+      "estResale": 640,
+      "shipping": 15,
+      "confidence": "low",
+      "hype": 4,
+      "method": "FCFS",
+      "where": "Supreme online and Supreme stores (Week 15, Black Friday)",
+      "buyLinks": [
+        {
+          "label": "Supreme",
+          "url": "https://www.supremenewyork.com/"
+        }
+      ],
+      "notes": "Week 15 Black Friday drop per SupremeCommunity's partial droplist (Nuptse $498, Hooded Fleece $268). Quick flip only in popular colors and sizes M-L.",
+      "resaleNote": "Based on typical first-weeks resale for past Supreme x TNF Nuptse drops; no sales data for this one yet.",
+      "sources": [
+        {
+          "label": "SupremeCommunity Week 15 droplist",
+          "url": "https://www.supremecommunity.com/season/fall-winter2026/droplist/2026-11-27/"
+        }
+      ],
+      "firstSeen": "2026-11-26",
+      "updated": "2026-11-26T13:49:46Z"
     }
   ]
 }

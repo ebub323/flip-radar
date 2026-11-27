@@ -1,6 +1,6 @@
 {
-  "lastRun": "2026-11-26T13:49:46Z",
-  "summary": "Best flips: Travis Scott × GTA 6 AF1 (released Nov 19–21, $130 → ~$330), Air Jordan 4 \"BIN 23\" (Dec 26, $355 → ~$550) and the Pokémon 30th Celebration UPC restock watch ($179.99 → ~$300). Black Friday (Nov 27) brings the AJ4 Bred (pre-release StockX avg ~$300, likely settles near $285, not a cop) and Supreme × The North Face Week 15 (thin margin). The Zelda Switch 2 won't restock at the Nintendo Store until January; the Xbox X25 restocked at Best Buy on Nov 25.",
+  "lastRun": "2026-11-27T13:02:45Z",
+  "summary": "Best flips: the Xbox Series X25 restock watch ($899.99 → ~$1,450, low confidence; last Best Buy restock Nov 25), Travis Scott × GTA 6 AF1 (released Nov 19–21, $130 → ~$280 as asks slide to ~$240–250) and Air Jordan 4 \"BIN 23\" (Dec 26, $355 → ~$550); the Pokémon 30th Celebration UPC ($179.99 → ~$300) stays a cop if you catch an Amazon restock wave. The AJ4 Bred drops today for Black Friday (StockX pre-release avg ~$300, likely settles near $285, not a cop). New: 30th Celebration ex Tins (Dec 4, $21.99) as a small multiples play.",
   "drops": [
     {
       "brand": "Jordan",
@@ -26,7 +26,7 @@
           "url": "https://wwd.com/footwear-news/sneaker-news/air-jordan-release-date-calendar-december-2026-1239460421/"
         }
       ],
-      "updated": "2026-11-26T13:49:46Z",
+      "updated": "2026-11-27T13:02:45Z",
       "where": "Nike SNKRS, retailers",
       "id": "aj10-sacramento",
       "buyLinks": [
@@ -51,7 +51,7 @@
       "hype": 4,
       "method": "SNKRS",
       "name": "Air Jordan 11 \"Space Jam\" (2026)",
-      "notes": "Dec 12 date and $235 retail agree across most trackers (Complex lists $255). Full family-size general release with very large supply, so margins after fees are thin.",
+      "notes": "Dec 12 date agrees across trackers; retail is $235 on most (Sneaker Scouts/Mogaz report $255). Full family-size holiday GR with very large supply, so margins after fees are thin.",
       "releaseDate": "2026-12-12",
       "resaleNote": "StockX shows a pre-release ask near $599 and a thin $800 last sale; the estimate assumes a big holiday GR run pulls it well below that, as with past Christmas AJ11s.",
       "retail": 235,
@@ -80,9 +80,13 @@
         {
           "label": "WWD: December 2026 Air Jordan calendar",
           "url": "https://wwd.com/footwear-news/sneaker-news/air-jordan-release-date-calendar-december-2026-1239460421/"
+        },
+        {
+          "label": "SoleGRIND",
+          "url": "https://solegrind.com/2026/09/26/air-jordan-11-space-jam-2026-30th-anniversary/"
         }
       ],
-      "updated": "2026-11-26T13:49:46Z",
+      "updated": "2026-11-27T13:02:45Z",
       "where": "Nike SNKRS, DICK'S, Foot Locker",
       "id": "aj11-space-jam-2026",
       "buyLinks": [
@@ -220,7 +224,7 @@
       "hype": 4,
       "method": "SNKRS",
       "name": "Shox R419 \"Black\"",
-      "notes": "Part of the Holiday 2026 pack. Still no confirmed date (Nov 25 check); it may end up a Corteiz-only drop.",
+      "notes": "Part of the Holiday 2026 pack (SKU IQ9951-002). Still no confirmed date as of Nov 27; outlets expect staggered Corteiz-first drops like the Silver and Game Royal, and Sole Retriever lists $180 vs $190 elsewhere.",
       "releaseDate": "",
       "resaleNote": "Black colorways usually trade a little under the louder pairs; set below the Silver estimate.",
       "retail": 190,
@@ -232,9 +236,13 @@
         {
           "label": "Stadium Goods",
           "url": "https://www.stadiumgoods.com/products/shox-r419-corteiz-black-247764"
+        },
+        {
+          "label": "Sole Retriever",
+          "url": "https://www.soleretriever.com/news/articles/corteiz-nike-shox-r419-release-date-holiday-2026"
         }
       ],
-      "updated": "2026-11-25T13:25:02Z",
+      "updated": "2026-11-27T13:02:45Z",
       "where": "Nike SNKRS, Corteiz site",
       "id": "corteiz-shox-r419-black",
       "buyLinks": [
@@ -247,7 +255,8 @@
           "url": "https://www.crtz.xyz"
         }
       ],
-      "shipping": 15
+      "shipping": 15,
+      "sku": "IQ9951-002"
     },
     {
       "brand": "Nike",
@@ -395,7 +404,7 @@
           "url": "https://www.sneakerfiles.com/release-dates/"
         }
       ],
-      "updated": "2026-11-18T12:00:00Z",
+      "updated": "2026-11-27T13:02:45Z",
       "where": "Nike, Foot Locker",
       "id": "lebron24-chosen1",
       "buyLinks": [
@@ -520,14 +529,14 @@
       "category": "Sneakers",
       "collab": "Travis Scott / Rockstar Games",
       "confidence": "medium",
-      "estResale": 330,
+      "estResale": 280,
       "firstSeen": "2026-11-18",
       "hype": 5,
       "method": "SNKRS",
       "name": "Air Force 1 Low \"GTA 6\" Pack",
-      "notes": "Pack reported for Nov 19 via Nike and select retailers; StockX and Sneakers Cartel list the White/Fire Pink pair for Nov 21 on SNKRS and Nov 23 on Travis Scott's site. A 600-pair Friends & Family colorway stays exclusive.",
+      "notes": "Released Nov 19-21 via SNKRS and Cactus Jack; the GR pairs are now an aftermarket/restock play only. The Multi-Color pair (~10 StockX sales, $2.5k avg) is effectively not buyable at retail.",
       "releaseDate": "2026-11-19",
-      "resaleNote": "StockX asks for the white and black pairs sit around $280–$300 on the brand page, while Resell Calendar reported ~$500 trades right after release; estimate splits the difference toward current asks.",
+      "resaleNote": "StockX shows ~$360 three-month averages on 800-1,100 sales per GR colorway, but current lowest asks have fallen to ~$238 (Black) and ~$252 (White); estimate assumes sales settle just above asks.",
       "retail": 130,
       "sources": [
         {
@@ -567,7 +576,7 @@
           "url": "https://resellcalendar.com/news/news/travis-scott-gta-6-sneaker-air-force-1-drop-details/"
         }
       ],
-      "updated": "2026-11-23T13:01:36Z",
+      "updated": "2026-11-27T13:02:45Z",
       "where": "Nike SNKRS, Cactus Jack",
       "id": "ts-gta6-af1",
       "buyLinks": [
@@ -744,7 +753,7 @@
         }
       ],
       "firstSeen": "2026-11-18",
-      "updated": "2026-11-18T13:38:01Z"
+      "updated": "2026-11-27T13:02:45Z"
     },
     {
       "id": "lego-75192-millennium-falcon",
@@ -770,6 +779,10 @@
         {
           "label": "BrickEconomy retiring soon",
           "url": "https://www.brickeconomy.com/sets/retiring-soon"
+        },
+        {
+          "label": "Jay's Brick Blog: retiring 2026",
+          "url": "https://jaysbrickblog.com/news/every-lego-set-retiring-by-the-end-of-2026-november-update/"
         }
       ],
       "buyLinks": [
@@ -779,7 +792,7 @@
         }
       ],
       "firstSeen": "2026-11-18",
-      "updated": "2026-11-18T13:38:01Z"
+      "updated": "2026-11-27T13:02:45Z"
     },
     {
       "id": "lego-10341-artemis-sls",
@@ -818,7 +831,7 @@
         }
       ],
       "firstSeen": "2026-11-18",
-      "updated": "2026-11-18T13:38:01Z"
+      "updated": "2026-11-27T13:02:45Z"
     },
     {
       "id": "pokemon-unova-heavy-hitters",
@@ -873,7 +886,7 @@
         }
       ],
       "firstSeen": "2026-11-18",
-      "updated": "2026-11-26T13:49:46Z"
+      "updated": "2026-11-27T13:02:45Z"
     },
     {
       "id": "aj4-bred-2026",
@@ -908,8 +921,8 @@
           "url": "https://www.finishline.com"
         }
       ],
-      "notes": "Black Friday drop on Nov 27 (most outlets now agree on the date, $230, IX8180-001) with the OG nubuck upper. Wide general release, so it's a big name but a thin flip.",
-      "resaleNote": "StockX men's listing shows ~$300 average on pre-release sales (last sale $249, per DraftKings/StockX); big Black Friday run should settle around $285.",
+      "notes": "Dropping today (Nov 27, Black Friday; Sneaker News lists Nov 28) at $230 in full family sizing. Big general release with likely restocks, so a thin quick flip at best.",
+      "resaleNote": "StockX pre-release average ~$299-310 (SI, Resell Calendar, DraftKings); estimate assumes it slides toward $285 once the Black Friday supply ships.",
       "sources": [
         {
           "label": "Sneaker News",
@@ -930,10 +943,18 @@
         {
           "label": "DraftKings: AJ4 Bred release and StockX avg",
           "url": "https://dknetwork.draftkings.com/2026/11/25/air-jordan-4-og-bred-release-date-price-where-to-buy/"
+        },
+        {
+          "label": "SI: where to buy AJ4 Bred",
+          "url": "https://www.si.com/fannation/sneakers/news/where-to-buy-air-jordan-4-bred-black-friday-2026"
+        },
+        {
+          "label": "Resell Calendar",
+          "url": "https://resellcalendar.com/news/news/air-jordan-4-bred-drop-details-price-reseller/"
         }
       ],
       "firstSeen": "2026-11-18",
-      "updated": "2026-11-26T13:49:46Z"
+      "updated": "2026-11-27T13:02:45Z"
     },
     {
       "id": "supreme-dickies-fw26",
@@ -1041,7 +1062,7 @@
           "url": "https://www.target.com"
         }
       ],
-      "notes": "Released Nov 6, 2026 at $179.99 per version; restock watch. Restockd logged 15 restocks in 30 days (last at Amazon Nov 18), so prices are sliding; still a quick flip if you land one at list, but sell fast.",
+      "notes": "Released Nov 6 at $179.99 per version; restock watch. Target and Best Buy show sold out online; Amazon has run ~6-minute restock waves (mostly 6-9pm local) in mid-November. Sell fast, prices are drifting down.",
       "resaleNote": "TCGplayer market is about $299-309 (Day) and $334-342 (Night) and trending down from ~$525 in late October (PriceCharting); estimate uses the Day price.",
       "sources": [
         {
@@ -1067,10 +1088,14 @@
         {
           "label": "Restockd",
           "url": "https://restockd.app/products/pokemon-tcg-30th-celebration-ultra-premium-collection"
+        },
+        {
+          "label": "Restock Buddy",
+          "url": "https://restockbuddy.app/p/pokemon-tcg-30th-celebration-ultra-premium-collection/history"
         }
       ],
       "firstSeen": "2026-11-19",
-      "updated": "2026-11-25T13:25:02Z"
+      "updated": "2026-11-27T13:02:45Z"
     },
     {
       "id": "pokemon-30th-celebration-binder",
@@ -1096,7 +1121,7 @@
           "url": "https://www.gamestop.com/toys-games/trading-cards/products/pokemon-trading-card-game-30th-celebration-binder-collection/20036370.html"
         }
       ],
-      "notes": "ICv2 lists Dec 4 while GameStop and Best Buy listed Oct 2, so the date is uncertain. Five 30th Celebration packs plus a binder at $31.99; a small quick flip, better in multiples.",
+      "notes": "Most calendars list Dec 4 at $31.99 (Pokénnoisseur shows $49.99 and an unsettled date). Five 30th Celebration packs plus a binder; a small quick flip, better in multiples.",
       "resaleNote": "TCGplayer's buyer's guide had it at ~$74 in early September (pre-release); $60 assumes heavy discounting once wide retail stock lands.",
       "sources": [
         {
@@ -1114,10 +1139,14 @@
         {
           "label": "PokeInsider release calendar",
           "url": "https://pokeinsider.com/pokemon-release-calendar/"
+        },
+        {
+          "label": "Pokénnoisseur calendar",
+          "url": "https://pokennoisseur.ca/tools/release-calendar"
         }
       ],
       "firstSeen": "2026-11-20",
-      "updated": "2026-11-26T13:49:46Z"
+      "updated": "2026-11-27T13:02:45Z"
     },
     {
       "id": "aj4-bin23-2026",
@@ -1165,7 +1194,7 @@
         }
       ],
       "firstSeen": "2026-11-22",
-      "updated": "2026-11-26T13:49:46Z"
+      "updated": "2026-11-27T13:02:45Z"
     },
     {
       "id": "fty-aj3-2026",
@@ -1392,7 +1421,7 @@
         }
       ],
       "firstSeen": "2026-11-25",
-      "updated": "2026-11-26T13:49:46Z"
+      "updated": "2026-11-27T13:02:45Z"
     },
     {
       "id": "jaide-aj1-low-og",
@@ -1503,7 +1532,54 @@
         }
       ],
       "firstSeen": "2026-11-26",
-      "updated": "2026-11-26T13:49:46Z"
+      "updated": "2026-11-27T13:02:45Z"
+    },
+    {
+      "id": "pokemon-30th-celebration-ex-tins",
+      "name": "Pokémon TCG 30th Celebration ex Tins (Sylveon ex / Greninja ex)",
+      "brand": "The Pokémon Company",
+      "collab": "",
+      "category": "Trading cards",
+      "releaseDate": "2026-12-04",
+      "retail": 21.99,
+      "estResale": 42,
+      "shipping": 7,
+      "confidence": "low",
+      "hype": 3,
+      "method": "FCFS",
+      "where": "Pokémon Center, Target, Walmart, GameStop, Best Buy and hobby shops",
+      "buyLinks": [
+        {
+          "label": "Pokémon Center",
+          "url": "https://www.pokemoncenter.com"
+        },
+        {
+          "label": "Target",
+          "url": "https://www.target.com"
+        },
+        {
+          "label": "GameStop",
+          "url": "https://www.gamestop.com"
+        }
+      ],
+      "notes": "Expected Dec 4 (PokeInsider marks it 'expected', not confirmed): four 30th Celebration packs plus a foil promo for $21.99. Mass-retail tin with a big run, so only worth it in multiples at list price.",
+      "resaleNote": "No post-release data yet; estimate values the four packs near the ~$10-15/pack implied by 30th Celebration presales, discounted for tin-level supply.",
+      "sources": [
+        {
+          "label": "PokeInsider release calendar",
+          "url": "https://pokeinsider.com/pokemon-release-calendar/"
+        },
+        {
+          "label": "Samurai Sword Tokyo Q4 calendar",
+          "url": "https://samuraiswordtokyo.com/blogs/news/pokemon-tcg-english-release-calendar-q4-2026"
+        },
+        {
+          "label": "TCGplayer buyer's guide",
+          "url": "https://www.tcgplayer.com/content/article/Buyer-s-Guide-to-Pok%C3%A9mon-TCG-30th-Celebration/0d9be702-6afe-467a-9aeb-d531592d9889/"
+        }
+      ],
+      "firstSeen": "2026-11-27",
+      "updated": "2026-11-27T13:02:45Z"
     }
   ]
 }

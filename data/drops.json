@@ -1,6 +1,6 @@
 {
-  "lastRun": "2026-11-27T13:02:45Z",
-  "summary": "Best flips: the Xbox Series X25 restock watch ($899.99 → ~$1,450, low confidence; last Best Buy restock Nov 25), Travis Scott × GTA 6 AF1 (released Nov 19–21, $130 → ~$280 as asks slide to ~$240–250) and Air Jordan 4 \"BIN 23\" (Dec 26, $355 → ~$550); the Pokémon 30th Celebration UPC ($179.99 → ~$300) stays a cop if you catch an Amazon restock wave. The AJ4 Bred drops today for Black Friday (StockX pre-release avg ~$300, likely settles near $285, not a cop). New: 30th Celebration ex Tins (Dec 4, $21.99) as a small multiples play.",
+  "lastRun": "2026-11-28T13:00:00Z",
+  "summary": "Best flips: the Xbox Series X25 restock watch ($899.99 → ~$1,450, low confidence; resellers quote $1,500–1,800), Air Jordan 4 \"BIN 23\" (Dec 26, $355 → ~$550) and the Travis Scott × GTA 6 AF1 (released Nov 19–21, $130 → ~$260 as StockX asks slide to ~$240–250). The AJ4 Bred (Nov 27) is already slipping toward retail (StockX last sale ~$206), so it is no longer a cop. The Zelda Switch 2 saw three quick Amazon waves on Black Friday, and Nintendo points to a January 2027 restock; Pokémon 30th Celebration Binder and ex Tins land Dec 4.",
   "drops": [
     {
       "brand": "Jordan",
@@ -26,7 +26,7 @@
           "url": "https://wwd.com/footwear-news/sneaker-news/air-jordan-release-date-calendar-december-2026-1239460421/"
         }
       ],
-      "updated": "2026-11-27T13:02:45Z",
+      "updated": "2026-11-28T13:00:00Z",
       "where": "Nike SNKRS, retailers",
       "id": "aj10-sacramento",
       "buyLinks": [
@@ -51,7 +51,7 @@
       "hype": 4,
       "method": "SNKRS",
       "name": "Air Jordan 11 \"Space Jam\" (2026)",
-      "notes": "Dec 12 date agrees across trackers; retail is $235 on most (Sneaker Scouts/Mogaz report $255). Full family-size holiday GR with very large supply, so margins after fees are thin.",
+      "notes": "Dec 12 per Nice Kicks and Droplist (WWD says Dec 13), $235 on SNKRS and select retailers; huge holiday run, so a modest flip at best.",
       "releaseDate": "2026-12-12",
       "resaleNote": "StockX shows a pre-release ask near $599 and a thin $800 last sale; the estimate assumes a big holiday GR run pulls it well below that, as with past Christmas AJ11s.",
       "retail": 235,
@@ -84,9 +84,13 @@
         {
           "label": "SoleGRIND",
           "url": "https://solegrind.com/2026/09/26/air-jordan-11-space-jam-2026-30th-anniversary/"
+        },
+        {
+          "label": "Droplist",
+          "url": "https://www.drop-list.com/sneakers/ct8012-900/"
         }
       ],
-      "updated": "2026-11-27T13:02:45Z",
+      "updated": "2026-11-28T13:00:00Z",
       "where": "Nike SNKRS, DICK'S, Foot Locker",
       "id": "aj11-space-jam-2026",
       "buyLinks": [
@@ -242,7 +246,7 @@
           "url": "https://www.soleretriever.com/news/articles/corteiz-nike-shox-r419-release-date-holiday-2026"
         }
       ],
-      "updated": "2026-11-27T13:02:45Z",
+      "updated": "2026-11-28T13:00:00Z",
       "where": "Nike SNKRS, Corteiz site",
       "id": "corteiz-shox-r419-black",
       "buyLinks": [
@@ -369,7 +373,7 @@
           "url": "https://www.sneakerfiles.com/nike-kd-6-aunt-pearl-2026"
         }
       ],
-      "updated": "2026-11-22T13:00:00Z",
+      "updated": "2026-11-28T13:00:00Z",
       "where": "Nike SNKRS",
       "id": "kd6-aunt-pearl",
       "buyLinks": [
@@ -404,7 +408,7 @@
           "url": "https://www.sneakerfiles.com/release-dates/"
         }
       ],
-      "updated": "2026-11-27T13:02:45Z",
+      "updated": "2026-11-28T13:00:00Z",
       "where": "Nike, Foot Locker",
       "id": "lebron24-chosen1",
       "buyLinks": [
@@ -529,14 +533,14 @@
       "category": "Sneakers",
       "collab": "Travis Scott / Rockstar Games",
       "confidence": "medium",
-      "estResale": 280,
+      "estResale": 260,
       "firstSeen": "2026-11-18",
       "hype": 5,
       "method": "SNKRS",
       "name": "Air Force 1 Low \"GTA 6\" Pack",
       "notes": "Released Nov 19-21 via SNKRS and Cactus Jack; the GR pairs are now an aftermarket/restock play only. The Multi-Color pair (~10 StockX sales, $2.5k avg) is effectively not buyable at retail.",
       "releaseDate": "2026-11-19",
-      "resaleNote": "StockX shows ~$360 three-month averages on 800-1,100 sales per GR colorway, but current lowest asks have fallen to ~$238 (Black) and ~$252 (White); estimate assumes sales settle just above asks.",
+      "resaleNote": "StockX lowest asks around $238–252 for Black and White Fire Pink with recent last sales of $378–479; asks keep sliding, so ~$260 median after fees is the realistic figure.",
       "retail": 130,
       "sources": [
         {
@@ -576,7 +580,7 @@
           "url": "https://resellcalendar.com/news/news/travis-scott-gta-6-sneaker-air-force-1-drop-details/"
         }
       ],
-      "updated": "2026-11-27T13:02:45Z",
+      "updated": "2026-11-28T13:00:00Z",
       "where": "Nike SNKRS, Cactus Jack",
       "id": "ts-gta6-af1",
       "buyLinks": [
@@ -675,7 +679,7 @@
       "hype": 5,
       "method": "FCFS",
       "where": "Nintendo Store, Best Buy, Target, Walmart",
-      "notes": "Sold out everywhere; the US Nintendo Store says the limited console won't restock until January 2027, so no Black Friday restock. Watch Nintendo Store, Target, Best Buy and Walmart alerts.",
+      "notes": "Amazon dropped three short waves on Black Friday at $519.99 (each gone in 2–6 minutes); Nintendo lists the next official restock for January 2027.",
       "resaleNote": "Reports put secondary prices near $900, but they come from smaller outlets; the estimate assumes prices soften once restocks land.",
       "sources": [
         {
@@ -693,6 +697,14 @@
         {
           "label": "The Shortcut restock tracker",
           "url": "https://www.theshortcut.com/p/zelda-switch-2-restock-tracker"
+        },
+        {
+          "label": "The Shortcut",
+          "url": "https://www.theshortcut.com/p/zelda-switch-2-restock-nintendo-january-black-friday"
+        },
+        {
+          "label": "Screen Rant",
+          "url": "https://screenrant.com/legend-of-zelda-switch-2-console-restocks-black-friday/"
         }
       ],
       "buyLinks": [
@@ -714,7 +726,7 @@
         }
       ],
       "firstSeen": "2026-11-18",
-      "updated": "2026-11-26T13:49:46Z"
+      "updated": "2026-11-28T13:00:00Z"
     },
     {
       "id": "lego-city-tower",
@@ -740,6 +752,10 @@
         {
           "label": "Brickfact retiring list",
           "url": "https://brickfact.com/en-gb/end-of-life"
+        },
+        {
+          "label": "Brickreport retiring Dec 2026",
+          "url": "https://www.brickreport.io/blog/lego-sets-retiring-december-2026"
         }
       ],
       "buyLinks": [
@@ -753,7 +769,7 @@
         }
       ],
       "firstSeen": "2026-11-18",
-      "updated": "2026-11-27T13:02:45Z"
+      "updated": "2026-11-28T13:00:00Z"
     },
     {
       "id": "lego-75192-millennium-falcon",
@@ -783,6 +799,10 @@
         {
           "label": "Jay's Brick Blog: retiring 2026",
           "url": "https://jaysbrickblog.com/news/every-lego-set-retiring-by-the-end-of-2026-november-update/"
+        },
+        {
+          "label": "Brickreport retiring Dec 2026",
+          "url": "https://www.brickreport.io/blog/lego-sets-retiring-december-2026"
         }
       ],
       "buyLinks": [
@@ -792,7 +812,7 @@
         }
       ],
       "firstSeen": "2026-11-18",
-      "updated": "2026-11-27T13:02:45Z"
+      "updated": "2026-11-28T13:00:00Z"
     },
     {
       "id": "lego-10341-artemis-sls",
@@ -818,6 +838,10 @@
         {
           "label": "Brick Fanatics",
           "url": "https://www.brickfanatics.com/the-10-biggest-lego-sets-retiring-end-of-2026"
+        },
+        {
+          "label": "Brickreport retiring Dec 2026",
+          "url": "https://www.brickreport.io/blog/lego-sets-retiring-december-2026"
         }
       ],
       "buyLinks": [
@@ -831,7 +855,7 @@
         }
       ],
       "firstSeen": "2026-11-18",
-      "updated": "2026-11-27T13:02:45Z"
+      "updated": "2026-11-28T13:00:00Z"
     },
     {
       "id": "pokemon-unova-heavy-hitters",
@@ -897,7 +921,7 @@
       "category": "Sneakers",
       "releaseDate": "2026-11-27",
       "retail": 230,
-      "estResale": 285,
+      "estResale": 240,
       "shipping": 15,
       "confidence": "medium",
       "hype": 5,
@@ -921,8 +945,8 @@
           "url": "https://www.finishline.com"
         }
       ],
-      "notes": "Dropping today (Nov 27, Black Friday; Sneaker News lists Nov 28) at $230 in full family sizing. Big general release with likely restocks, so a thin quick flip at best.",
-      "resaleNote": "StockX pre-release average ~$299-310 (SI, Resell Calendar, DraftKings); estimate assumes it slides toward $285 once the Black Friday supply ships.",
+      "notes": "Released Nov 27 (Black Friday) on SNKRS and at Jordan retailers; big run, so prices are sliding toward retail after launch.",
+      "resaleNote": "StockX shows a $206 last sale and a $275 3-month average (mostly pre-release asks near $300), so the settled median looks closer to $240.",
       "sources": [
         {
           "label": "Sneaker News",
@@ -954,7 +978,7 @@
         }
       ],
       "firstSeen": "2026-11-18",
-      "updated": "2026-11-27T13:02:45Z"
+      "updated": "2026-11-28T13:00:00Z"
     },
     {
       "id": "supreme-dickies-fw26",
@@ -1146,7 +1170,7 @@
         }
       ],
       "firstSeen": "2026-11-20",
-      "updated": "2026-11-27T13:02:45Z"
+      "updated": "2026-11-28T13:00:00Z"
     },
     {
       "id": "aj4-bin23-2026",
@@ -1305,7 +1329,7 @@
         }
       ],
       "notes": "Restock watch: Best Buy ran a Drops restock on Nov 25 and Amazon is selling invite-only. Each restock softens resale a little.",
-      "resaleNote": "Early eBay asks ran $2,000–$2,500 (Gizmodo, Resell Calendar), but those are asks during the sell-out; the estimate discounts heavily for completed sales and any future restock.",
+      "resaleNote": "Reseller outlets put sealed units at ~$1,500–1,800 (25,000 numbered units); kept at $1,450 to allow for weaker sources and more restocks.",
       "sources": [
         {
           "label": "Gizmodo",
@@ -1330,10 +1354,14 @@
         {
           "label": "Resell Calendar: X25 Amazon invite restock",
           "url": "https://resellcalendar.com/news/news/sold-out-xbox-25-anniversary-console-restock-amazon-invite-only/"
+        },
+        {
+          "label": "Resell Calendar",
+          "url": "https://resellcalendar.com/news/news/x25-xbox-25-anniversary-console-restock-reseller-details/"
         }
       ],
       "firstSeen": "2026-11-24",
-      "updated": "2026-11-26T13:49:46Z"
+      "updated": "2026-11-28T13:00:00Z"
     },
     {
       "id": "aj4-pink-thunder",
@@ -1377,7 +1405,7 @@
         }
       ],
       "firstSeen": "2026-11-24",
-      "updated": "2026-11-24T17:18:42Z"
+      "updated": "2026-11-28T13:00:00Z"
     },
     {
       "id": "aj8-knicks-2026",
@@ -1421,7 +1449,7 @@
         }
       ],
       "firstSeen": "2026-11-25",
-      "updated": "2026-11-27T13:02:45Z"
+      "updated": "2026-11-28T13:00:00Z"
     },
     {
       "id": "jaide-aj1-low-og",
@@ -1461,7 +1489,7 @@
         }
       ],
       "firstSeen": "2026-11-25",
-      "updated": "2026-11-25T13:25:02Z"
+      "updated": "2026-11-28T13:00:00Z"
     },
     {
       "id": "kobe10-protro-duke",
@@ -1579,7 +1607,7 @@
         }
       ],
       "firstSeen": "2026-11-27",
-      "updated": "2026-11-27T13:02:45Z"
+      "updated": "2026-11-28T13:00:00Z"
     }
   ]
 }
